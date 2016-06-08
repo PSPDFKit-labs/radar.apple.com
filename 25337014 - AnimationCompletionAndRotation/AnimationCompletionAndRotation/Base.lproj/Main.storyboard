@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IVU-sU-ewh">
+                                <rect key="frame" x="20" y="102" width="560" height="102"/>
+                                <string key="text">Tap the 'Animate' button. Once the animation is done an alert view should become visible. But it doesn't if you switch the break option to on. This bug surfaces even more dramatically when you rotate the device with the break button set to on. After the rotation UI is frozen and rotation doesn't work anymore as well.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="WgM-aO-qn0">
+                                <rect key="frame" x="166" y="25" width="51" height="31"/>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Break completion:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CgJ-Ea-Osz">
+                                <rect key="frame" x="20" y="30" width="138" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4f2-Lg-E8a">
+                                <rect key="frame" x="20" y="64" width="57" height="30"/>
+                                <state key="normal" title="Animate"/>
+                                <connections>
+                                    <action selector="animateSomething" destination="BYZ-38-t0r" eventType="touchUpInside" id="jgs-hn-BKf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4f2-Lg-E8a" firstAttribute="top" secondItem="WgM-aO-qn0" secondAttribute="bottom" constant="8" symbolic="YES" id="79f-x6-7na"/>
+                            <constraint firstItem="CgJ-Ea-Osz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="Q2i-Qe-ka6"/>
+                            <constraint firstItem="IVU-sU-ewh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="SNr-mZ-oNA"/>
+                            <constraint firstItem="CgJ-Ea-Osz" firstAttribute="leading" secondItem="IVU-sU-ewh" secondAttribute="leading" id="TtJ-re-Krj"/>
+                            <constraint firstItem="CgJ-Ea-Osz" firstAttribute="centerY" secondItem="WgM-aO-qn0" secondAttribute="centerY" id="hou-Iw-2OO"/>
+                            <constraint firstItem="WgM-aO-qn0" firstAttribute="leading" secondItem="CgJ-Ea-Osz" secondAttribute="trailing" constant="8" symbolic="YES" id="kde-Er-API"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="4f2-Lg-E8a" secondAttribute="leading" id="rlx-KY-Ejm"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="IVU-sU-ewh" secondAttribute="trailing" id="wlH-Wh-hjP"/>
+                            <constraint firstItem="IVU-sU-ewh" firstAttribute="top" secondItem="4f2-Lg-E8a" secondAttribute="bottom" constant="8" symbolic="YES" id="xRc-Ni-btq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="breakAnimation" destination="WgM-aO-qn0" id="cdh-mw-hqd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="885" y="655"/>
+        </scene>
+    </scenes>
+</document>
