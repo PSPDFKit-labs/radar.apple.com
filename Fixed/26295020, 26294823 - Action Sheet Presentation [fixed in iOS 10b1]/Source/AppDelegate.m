@@ -9,7 +9,7 @@
 @synthesize window = _window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    PSPDFInstallWorkaroundForSheetPresentation();
+    //PSPDFInstallWorkaroundForSheetPresentation();
 
     self.window = [[UIWindow alloc] init];
 
