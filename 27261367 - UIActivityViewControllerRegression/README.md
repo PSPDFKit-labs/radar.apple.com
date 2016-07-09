@@ -1,5 +1,7 @@
 rdar://27261367
 
+Breaking changing on UIActivityViewController when checking modalPresentationStyle leads to crash
+
 Area:
 UIKit
 
