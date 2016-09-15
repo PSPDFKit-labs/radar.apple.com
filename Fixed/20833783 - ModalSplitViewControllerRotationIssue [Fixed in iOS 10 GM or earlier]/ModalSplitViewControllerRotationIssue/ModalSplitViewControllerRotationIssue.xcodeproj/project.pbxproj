@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2092CA61AFA0836001E9AD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2092CA51AFA0836001E9AD7 /* main.m */; };
+		D2092CA91AFA0836001E9AD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2092CA81AFA0836001E9AD7 /* AppDelegate.m */; };
+		D2092CAC1AFA0836001E9AD7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2092CAB1AFA0836001E9AD7 /* ViewController.m */; };
+		D2092CAF1AFA0836001E9AD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2092CAD1AFA0836001E9AD7 /* Main.storyboard */; };
+		D2092CB11AFA0836001E9AD7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2092CB01AFA0836001E9AD7 /* Images.xcassets */; };
+		D2092CB41AFA0836001E9AD7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2092CB21AFA0836001E9AD7 /* LaunchScreen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2092CBA1AFA0836001E9AD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2092C981AFA0836001E9AD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2092C9F1AFA0836001E9AD7;
+			remoteInfo = ModalSplitViewControllerRotationIssue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2092CA01AFA0836001E9AD7 /* ModalSplitViewControllerRotationIssue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModalSplitViewControllerRotationIssue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2092CA41AFA0836001E9AD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2092CA51AFA0836001E9AD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2092CA71AFA0836001E9AD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2092CA81AFA0836001E9AD7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2092CAA1AFA0836001E9AD7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D2092CAB1AFA0836001E9AD7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D2092CAE1AFA0836001E9AD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2092CB01AFA0836001E9AD7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D2092CB31AFA0836001E9AD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D2092CB91AFA0836001E9AD7 /* ModalSplitViewControllerRotationIssueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModalSplitViewControllerRotationIssueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2092C9D1AFA0836001E9AD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2092CB61AFA0836001E9AD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2092C971AFA0836001E9AD7 = {
+			isa = PBXGroup;
+			children = (
+				D2092CA21AFA0836001E9AD7 /* ModalSplitViewControllerRotationIssue */,
+				D2092CA11AFA0836001E9AD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2092CA11AFA0836001E9AD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2092CA01AFA0836001E9AD7 /* ModalSplitViewControllerRotationIssue.app */,
+				D2092CB91AFA0836001E9AD7 /* ModalSplitViewControllerRotationIssueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2092CA21AFA0836001E9AD7 /* ModalSplitViewControllerRotationIssue */ = {
+			isa = PBXGroup;
+			children = (
+				D2092CA71AFA0836001E9AD7 /* AppDelegate.h */,
+				D2092CA81AFA0836001E9AD7 /* AppDelegate.m */,
+				D2092CAA1AFA0836001E9AD7 /* ViewController.h */,
+				D2092CAB1AFA0836001E9AD7 /* ViewController.m */,
+				D2092CAD1AFA0836001E9AD7 /* Main.storyboard */,
+				D2092CB01AFA0836001E9AD7 /* Images.xcassets */,
+				D2092CB21AFA0836001E9AD7 /* LaunchScreen.xib */,
+				D2092CA31AFA0836001E9AD7 /* Supporting Files */,
+			);
+			path = ModalSplitViewControllerRotationIssue;
+			sourceTree = "<group>";
+		};
+		D2092CA31AFA0836001E9AD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2092CA41AFA0836001E9AD7 /* Info.plist */,
+				D2092CA51AFA0836001E9AD7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2092C9F1AFA0836001E9AD7 /* ModalSplitViewControllerRotationIssue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2092CC31AFA0836001E9AD7 /* Build configuration list for PBXNativeTarget "ModalSplitViewControllerRotationIssue" */;
+			buildPhases = (
+				D2092C9C1AFA0836001E9AD7 /* Sources */,
+				D2092C9D1AFA0836001E9AD7 /* Frameworks */,
+				D2092C9E1AFA0836001E9AD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ModalSplitViewControllerRotationIssue;
+			productName = ModalSplitViewControllerRotationIssue;
+			productReference = D2092CA01AFA0836001E9AD7 /* ModalSplitViewControllerRotationIssue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2092CB81AFA0836001E9AD7 /* ModalSplitViewControllerRotationIssueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2092CC61AFA0836001E9AD7 /* Build configuration list for PBXNativeTarget "ModalSplitViewControllerRotationIssueTests" */;
+			buildPhases = (
+				D2092CB51AFA0836001E9AD7 /* Sources */,
+				D2092CB61AFA0836001E9AD7 /* Frameworks */,
+				D2092CB71AFA0836001E9AD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2092CBB1AFA0836001E9AD7 /* PBXTargetDependency */,
+			);
+			name = ModalSplitViewControllerRotationIssueTests;
+			productName = ModalSplitViewControllerRotationIssueTests;
+			productReference = D2092CB91AFA0836001E9AD7 /* ModalSplitViewControllerRotationIssueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2092C981AFA0836001E9AD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = PSPDFKit;
+				TargetAttributes = {
+					D2092C9F1AFA0836001E9AD7 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					D2092CB81AFA0836001E9AD7 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = D2092C9F1AFA0836001E9AD7;
+					};
+				};
+			};
+			buildConfigurationList = D2092C9B1AFA0836001E9AD7 /* Build configuration list for PBXProject "ModalSplitViewControllerRotationIssue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2092C971AFA0836001E9AD7;
+			productRefGroup = D2092CA11AFA0836001E9AD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2092C9F1AFA0836001E9AD7 /* ModalSplitViewControllerRotationIssue */,
+				D2092CB81AFA0836001E9AD7 /* ModalSplitViewControllerRotationIssueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2092C9E1AFA0836001E9AD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2092CAF1AFA0836001E9AD7 /* Main.storyboard in Resources */,
+				D2092CB41AFA0836001E9AD7 /* LaunchScreen.xib in Resources */,
+				D2092CB11AFA0836001E9AD7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2092CB71AFA0836001E9AD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2092C9C1AFA0836001E9AD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2092CAC1AFA0836001E9AD7 /* ViewController.m in Sources */,
+				D2092CA91AFA0836001E9AD7 /* AppDelegate.m in Sources */,
+				D2092CA61AFA0836001E9AD7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2092CB51AFA0836001E9AD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2092CBB1AFA0836001E9AD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2092C9F1AFA0836001E9AD7 /* ModalSplitViewControllerRotationIssue */;
+			targetProxy = D2092CBA1AFA0836001E9AD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2092CAD1AFA0836001E9AD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2092CAE1AFA0836001E9AD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2092CB21AFA0836001E9AD7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2092CB31AFA0836001E9AD7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2092CC11AFA0836001E9AD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D2092CC21AFA0836001E9AD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2092CC41AFA0836001E9AD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ModalSplitViewControllerRotationIssue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D2092CC51AFA0836001E9AD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ModalSplitViewControllerRotationIssue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D2092CC71AFA0836001E9AD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ModalSplitViewControllerRotationIssueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ModalSplitViewControllerRotationIssue.app/ModalSplitViewControllerRotationIssue";
+			};
+			name = Debug;
+		};
+		D2092CC81AFA0836001E9AD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ModalSplitViewControllerRotationIssueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ModalSplitViewControllerRotationIssue.app/ModalSplitViewControllerRotationIssue";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2092C9B1AFA0836001E9AD7 /* Build configuration list for PBXProject "ModalSplitViewControllerRotationIssue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2092CC11AFA0836001E9AD7 /* Debug */,
+				D2092CC21AFA0836001E9AD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2092CC31AFA0836001E9AD7 /* Build configuration list for PBXNativeTarget "ModalSplitViewControllerRotationIssue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2092CC41AFA0836001E9AD7 /* Debug */,
+				D2092CC51AFA0836001E9AD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2092CC61AFA0836001E9AD7 /* Build configuration list for PBXNativeTarget "ModalSplitViewControllerRotationIssueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2092CC71AFA0836001E9AD7 /* Debug */,
+				D2092CC81AFA0836001E9AD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2092C981AFA0836001E9AD7 /* Project object */;
+}
