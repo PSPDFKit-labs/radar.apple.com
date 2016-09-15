@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78C3D05C1A8CC4D40090407F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C3D05B1A8CC4D40090407F /* main.m */; };
+		78C3D05F1A8CC4D40090407F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C3D05E1A8CC4D40090407F /* AppDelegate.m */; };
+		78C3D0621A8CC4D40090407F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C3D0611A8CC4D40090407F /* ViewController.m */; };
+		78C3D0651A8CC4D40090407F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78C3D0631A8CC4D40090407F /* Main.storyboard */; };
+		78C3D0671A8CC4D40090407F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78C3D0661A8CC4D40090407F /* Images.xcassets */; };
+		78C3D06A1A8CC4D40090407F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78C3D0681A8CC4D40090407F /* LaunchScreen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78C3D0701A8CC4D40090407F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78C3D04E1A8CC4D40090407F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78C3D0551A8CC4D40090407F;
+			remoteInfo = SplitViewControllerRotationCallbackCalledTwice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78C3D0561A8CC4D40090407F /* SplitViewControllerRotationCallbackCalledTwice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitViewControllerRotationCallbackCalledTwice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78C3D05A1A8CC4D40090407F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78C3D05B1A8CC4D40090407F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78C3D05D1A8CC4D40090407F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		78C3D05E1A8CC4D40090407F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		78C3D0601A8CC4D40090407F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		78C3D0611A8CC4D40090407F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		78C3D0641A8CC4D40090407F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78C3D0661A8CC4D40090407F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		78C3D0691A8CC4D40090407F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		78C3D06F1A8CC4D40090407F /* SplitViewControllerRotationCallbackCalledTwiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitViewControllerRotationCallbackCalledTwiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78C3D0531A8CC4D40090407F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C3D06C1A8CC4D40090407F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78C3D04D1A8CC4D40090407F = {
+			isa = PBXGroup;
+			children = (
+				78C3D0581A8CC4D40090407F /* SplitViewControllerRotationCallbackCalledTwice */,
+				78C3D0571A8CC4D40090407F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78C3D0571A8CC4D40090407F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78C3D0561A8CC4D40090407F /* SplitViewControllerRotationCallbackCalledTwice.app */,
+				78C3D06F1A8CC4D40090407F /* SplitViewControllerRotationCallbackCalledTwiceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78C3D0581A8CC4D40090407F /* SplitViewControllerRotationCallbackCalledTwice */ = {
+			isa = PBXGroup;
+			children = (
+				78C3D05D1A8CC4D40090407F /* AppDelegate.h */,
+				78C3D05E1A8CC4D40090407F /* AppDelegate.m */,
+				78C3D0601A8CC4D40090407F /* ViewController.h */,
+				78C3D0611A8CC4D40090407F /* ViewController.m */,
+				78C3D0631A8CC4D40090407F /* Main.storyboard */,
+				78C3D0661A8CC4D40090407F /* Images.xcassets */,
+				78C3D0681A8CC4D40090407F /* LaunchScreen.xib */,
+				78C3D0591A8CC4D40090407F /* Supporting Files */,
+			);
+			path = SplitViewControllerRotationCallbackCalledTwice;
+			sourceTree = "<group>";
+		};
+		78C3D0591A8CC4D40090407F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78C3D05A1A8CC4D40090407F /* Info.plist */,
+				78C3D05B1A8CC4D40090407F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78C3D0551A8CC4D40090407F /* SplitViewControllerRotationCallbackCalledTwice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78C3D0791A8CC4D40090407F /* Build configuration list for PBXNativeTarget "SplitViewControllerRotationCallbackCalledTwice" */;
+			buildPhases = (
+				78C3D0521A8CC4D40090407F /* Sources */,
+				78C3D0531A8CC4D40090407F /* Frameworks */,
+				78C3D0541A8CC4D40090407F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SplitViewControllerRotationCallbackCalledTwice;
+			productName = SplitViewControllerRotationCallbackCalledTwice;
+			productReference = 78C3D0561A8CC4D40090407F /* SplitViewControllerRotationCallbackCalledTwice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78C3D06E1A8CC4D40090407F /* SplitViewControllerRotationCallbackCalledTwiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78C3D07C1A8CC4D40090407F /* Build configuration list for PBXNativeTarget "SplitViewControllerRotationCallbackCalledTwiceTests" */;
+			buildPhases = (
+				78C3D06B1A8CC4D40090407F /* Sources */,
+				78C3D06C1A8CC4D40090407F /* Frameworks */,
+				78C3D06D1A8CC4D40090407F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78C3D0711A8CC4D40090407F /* PBXTargetDependency */,
+			);
+			name = SplitViewControllerRotationCallbackCalledTwiceTests;
+			productName = SplitViewControllerRotationCallbackCalledTwiceTests;
+			productReference = 78C3D06F1A8CC4D40090407F /* SplitViewControllerRotationCallbackCalledTwiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78C3D04E1A8CC4D40090407F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "PSPDFKit GmbH";
+				TargetAttributes = {
+					78C3D0551A8CC4D40090407F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					78C3D06E1A8CC4D40090407F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 78C3D0551A8CC4D40090407F;
+					};
+				};
+			};
+			buildConfigurationList = 78C3D0511A8CC4D40090407F /* Build configuration list for PBXProject "SplitViewControllerRotationCallbackCalledTwice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78C3D04D1A8CC4D40090407F;
+			productRefGroup = 78C3D0571A8CC4D40090407F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78C3D0551A8CC4D40090407F /* SplitViewControllerRotationCallbackCalledTwice */,
+				78C3D06E1A8CC4D40090407F /* SplitViewControllerRotationCallbackCalledTwiceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78C3D0541A8CC4D40090407F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C3D0651A8CC4D40090407F /* Main.storyboard in Resources */,
+				78C3D06A1A8CC4D40090407F /* LaunchScreen.xib in Resources */,
+				78C3D0671A8CC4D40090407F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C3D06D1A8CC4D40090407F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78C3D0521A8CC4D40090407F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C3D0621A8CC4D40090407F /* ViewController.m in Sources */,
+				78C3D05F1A8CC4D40090407F /* AppDelegate.m in Sources */,
+				78C3D05C1A8CC4D40090407F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C3D06B1A8CC4D40090407F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78C3D0711A8CC4D40090407F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78C3D0551A8CC4D40090407F /* SplitViewControllerRotationCallbackCalledTwice */;
+			targetProxy = 78C3D0701A8CC4D40090407F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78C3D0631A8CC4D40090407F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78C3D0641A8CC4D40090407F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78C3D0681A8CC4D40090407F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78C3D0691A8CC4D40090407F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78C3D0771A8CC4D40090407F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78C3D0781A8CC4D40090407F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78C3D07A1A8CC4D40090407F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SplitViewControllerRotationCallbackCalledTwice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pspdfkit.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		78C3D07B1A8CC4D40090407F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SplitViewControllerRotationCallbackCalledTwice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pspdfkit.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		78C3D07D1A8CC4D40090407F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SplitViewControllerRotationCallbackCalledTwiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplitViewControllerRotationCallbackCalledTwice.app/SplitViewControllerRotationCallbackCalledTwice";
+			};
+			name = Debug;
+		};
+		78C3D07E1A8CC4D40090407F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SplitViewControllerRotationCallbackCalledTwiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplitViewControllerRotationCallbackCalledTwice.app/SplitViewControllerRotationCallbackCalledTwice";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78C3D0511A8CC4D40090407F /* Build configuration list for PBXProject "SplitViewControllerRotationCallbackCalledTwice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C3D0771A8CC4D40090407F /* Debug */,
+				78C3D0781A8CC4D40090407F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78C3D0791A8CC4D40090407F /* Build configuration list for PBXNativeTarget "SplitViewControllerRotationCallbackCalledTwice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C3D07A1A8CC4D40090407F /* Debug */,
+				78C3D07B1A8CC4D40090407F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78C3D07C1A8CC4D40090407F /* Build configuration list for PBXNativeTarget "SplitViewControllerRotationCallbackCalledTwiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C3D07D1A8CC4D40090407F /* Debug */,
+				78C3D07E1A8CC4D40090407F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78C3D04E1A8CC4D40090407F /* Project object */;
+}
