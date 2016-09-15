@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D28ECF531AF76762008E5C11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D28ECF521AF76762008E5C11 /* main.m */; };
+		D28ECF561AF76762008E5C11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D28ECF551AF76762008E5C11 /* AppDelegate.m */; };
+		D28ECF591AF76762008E5C11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D28ECF581AF76762008E5C11 /* ViewController.m */; };
+		D28ECF5C1AF76762008E5C11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D28ECF5A1AF76762008E5C11 /* Main.storyboard */; };
+		D28ECF5E1AF76762008E5C11 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D28ECF5D1AF76762008E5C11 /* Images.xcassets */; };
+		D28ECF611AF76762008E5C11 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D28ECF5F1AF76762008E5C11 /* LaunchScreen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D28ECF671AF76762008E5C11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D28ECF451AF76762008E5C11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D28ECF4C1AF76762008E5C11;
+			remoteInfo = TextFieldAutoScrollingIssue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D28ECF4D1AF76762008E5C11 /* TextFieldAutoScrollingIssue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFieldAutoScrollingIssue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28ECF511AF76762008E5C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D28ECF521AF76762008E5C11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D28ECF541AF76762008E5C11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D28ECF551AF76762008E5C11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D28ECF571AF76762008E5C11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D28ECF581AF76762008E5C11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D28ECF5B1AF76762008E5C11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D28ECF5D1AF76762008E5C11 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D28ECF601AF76762008E5C11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D28ECF661AF76762008E5C11 /* TextFieldAutoScrollingIssueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldAutoScrollingIssueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D28ECF4A1AF76762008E5C11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28ECF631AF76762008E5C11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D28ECF441AF76762008E5C11 = {
+			isa = PBXGroup;
+			children = (
+				D28ECF4F1AF76762008E5C11 /* TextFieldAutoScrollingIssue */,
+				D28ECF4E1AF76762008E5C11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D28ECF4E1AF76762008E5C11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D28ECF4D1AF76762008E5C11 /* TextFieldAutoScrollingIssue.app */,
+				D28ECF661AF76762008E5C11 /* TextFieldAutoScrollingIssueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D28ECF4F1AF76762008E5C11 /* TextFieldAutoScrollingIssue */ = {
+			isa = PBXGroup;
+			children = (
+				D28ECF541AF76762008E5C11 /* AppDelegate.h */,
+				D28ECF551AF76762008E5C11 /* AppDelegate.m */,
+				D28ECF571AF76762008E5C11 /* ViewController.h */,
+				D28ECF581AF76762008E5C11 /* ViewController.m */,
+				D28ECF5A1AF76762008E5C11 /* Main.storyboard */,
+				D28ECF5D1AF76762008E5C11 /* Images.xcassets */,
+				D28ECF5F1AF76762008E5C11 /* LaunchScreen.xib */,
+				D28ECF501AF76762008E5C11 /* Supporting Files */,
+			);
+			path = TextFieldAutoScrollingIssue;
+			sourceTree = "<group>";
+		};
+		D28ECF501AF76762008E5C11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D28ECF511AF76762008E5C11 /* Info.plist */,
+				D28ECF521AF76762008E5C11 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D28ECF4C1AF76762008E5C11 /* TextFieldAutoScrollingIssue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D28ECF701AF76762008E5C11 /* Build configuration list for PBXNativeTarget "TextFieldAutoScrollingIssue" */;
+			buildPhases = (
+				D28ECF491AF76762008E5C11 /* Sources */,
+				D28ECF4A1AF76762008E5C11 /* Frameworks */,
+				D28ECF4B1AF76762008E5C11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextFieldAutoScrollingIssue;
+			productName = TextFieldAutoScrollingIssue;
+			productReference = D28ECF4D1AF76762008E5C11 /* TextFieldAutoScrollingIssue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D28ECF651AF76762008E5C11 /* TextFieldAutoScrollingIssueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D28ECF731AF76762008E5C11 /* Build configuration list for PBXNativeTarget "TextFieldAutoScrollingIssueTests" */;
+			buildPhases = (
+				D28ECF621AF76762008E5C11 /* Sources */,
+				D28ECF631AF76762008E5C11 /* Frameworks */,
+				D28ECF641AF76762008E5C11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D28ECF681AF76762008E5C11 /* PBXTargetDependency */,
+			);
+			name = TextFieldAutoScrollingIssueTests;
+			productName = TextFieldAutoScrollingIssueTests;
+			productReference = D28ECF661AF76762008E5C11 /* TextFieldAutoScrollingIssueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D28ECF451AF76762008E5C11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = PSPDFKit;
+				TargetAttributes = {
+					D28ECF4C1AF76762008E5C11 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					D28ECF651AF76762008E5C11 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = D28ECF4C1AF76762008E5C11;
+					};
+				};
+			};
+			buildConfigurationList = D28ECF481AF76762008E5C11 /* Build configuration list for PBXProject "TextFieldAutoScrollingIssue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D28ECF441AF76762008E5C11;
+			productRefGroup = D28ECF4E1AF76762008E5C11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D28ECF4C1AF76762008E5C11 /* TextFieldAutoScrollingIssue */,
+				D28ECF651AF76762008E5C11 /* TextFieldAutoScrollingIssueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D28ECF4B1AF76762008E5C11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28ECF5C1AF76762008E5C11 /* Main.storyboard in Resources */,
+				D28ECF611AF76762008E5C11 /* LaunchScreen.xib in Resources */,
+				D28ECF5E1AF76762008E5C11 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28ECF641AF76762008E5C11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D28ECF491AF76762008E5C11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28ECF591AF76762008E5C11 /* ViewController.m in Sources */,
+				D28ECF561AF76762008E5C11 /* AppDelegate.m in Sources */,
+				D28ECF531AF76762008E5C11 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28ECF621AF76762008E5C11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D28ECF681AF76762008E5C11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D28ECF4C1AF76762008E5C11 /* TextFieldAutoScrollingIssue */;
+			targetProxy = D28ECF671AF76762008E5C11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D28ECF5A1AF76762008E5C11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D28ECF5B1AF76762008E5C11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D28ECF5F1AF76762008E5C11 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D28ECF601AF76762008E5C11 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D28ECF6E1AF76762008E5C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D28ECF6F1AF76762008E5C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D28ECF711AF76762008E5C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TextFieldAutoScrollingIssue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D28ECF721AF76762008E5C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TextFieldAutoScrollingIssue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D28ECF741AF76762008E5C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TextFieldAutoScrollingIssueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextFieldAutoScrollingIssue.app/TextFieldAutoScrollingIssue";
+			};
+			name = Debug;
+		};
+		D28ECF751AF76762008E5C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TextFieldAutoScrollingIssueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextFieldAutoScrollingIssue.app/TextFieldAutoScrollingIssue";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D28ECF481AF76762008E5C11 /* Build configuration list for PBXProject "TextFieldAutoScrollingIssue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28ECF6E1AF76762008E5C11 /* Debug */,
+				D28ECF6F1AF76762008E5C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D28ECF701AF76762008E5C11 /* Build configuration list for PBXNativeTarget "TextFieldAutoScrollingIssue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28ECF711AF76762008E5C11 /* Debug */,
+				D28ECF721AF76762008E5C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D28ECF731AF76762008E5C11 /* Build configuration list for PBXNativeTarget "TextFieldAutoScrollingIssueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28ECF741AF76762008E5C11 /* Debug */,
+				D28ECF751AF76762008E5C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D28ECF451AF76762008E5C11 /* Project object */;
+}

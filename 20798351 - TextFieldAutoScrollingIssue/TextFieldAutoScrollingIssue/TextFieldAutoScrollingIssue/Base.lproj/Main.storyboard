@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vDg-BB-mTv">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="twJ-B1-yFq">
+                                        <rect key="frame" x="20" y="20" width="2000" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="2000" id="8GF-wi-aFU"/>
+                                            <constraint firstAttribute="height" constant="30" id="Zs5-aZ-dUp"/>
+                                        </constraints>
+                                        <string key="text">Tap to observe unexpected scrolling to the end of the text field, instead to say to the caret position. See ViewController for more info.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="feW-FR-gUa"/>
+                                        </connections>
+                                    </textField>
+                                </subviews>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstItem="twJ-B1-yFq" firstAttribute="leading" secondItem="vDg-BB-mTv" secondAttribute="leading" constant="20" symbolic="YES" id="2fj-t1-uhk"/>
+                                    <constraint firstItem="twJ-B1-yFq" firstAttribute="top" secondItem="vDg-BB-mTv" secondAttribute="top" constant="20" symbolic="YES" id="GWg-Vy-tB8"/>
+                                    <constraint firstAttribute="bottom" secondItem="twJ-B1-yFq" secondAttribute="bottom" constant="20" symbolic="YES" id="O1k-1f-hzY"/>
+                                    <constraint firstAttribute="trailing" secondItem="twJ-B1-yFq" secondAttribute="trailing" constant="20" symbolic="YES" id="kfp-Rn-nwN"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="YfJ-4y-gJK" appends="YES" id="EaK-2n-qiM"/>
+                                </connections>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vDg-BB-mTv" secondAttribute="bottom" id="7kE-2o-VzI"/>
+                            <constraint firstAttribute="trailing" secondItem="vDg-BB-mTv" secondAttribute="trailing" id="CeT-PI-0Pi"/>
+                            <constraint firstItem="vDg-BB-mTv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="QHq-Qr-WZ5"/>
+                            <constraint firstItem="vDg-BB-mTv" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="m9m-fH-qPK"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="scrollView" destination="vDg-BB-mTv" id="42c-PL-GrJ"/>
+                        <outlet property="textField" destination="twJ-B1-yFq" id="Ubd-Nq-7aD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="YfJ-4y-gJK">
+                    <connections>
+                        <action selector="didTap:" destination="BYZ-38-t0r" id="UeB-Wb-aHq"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+        </scene>
+    </scenes>
+</document>
