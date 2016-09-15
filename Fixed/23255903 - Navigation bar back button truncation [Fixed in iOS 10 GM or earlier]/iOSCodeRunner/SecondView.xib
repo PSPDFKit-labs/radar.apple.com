@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SecondViewController">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="lNd-2e-eTz"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KeA-HZ-rxG">
+                    <rect key="frame" x="255" y="82" width="90" height="33"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="Toggle Title"/>
+                    <connections>
+                        <action selector="toggleTitle:" destination="-1" eventType="touchUpInside" id="4DW-7z-zyL"/>
+                    </connections>
+                </button>
+                <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="OlW-ot-bII">
+                    <rect key="frame" x="486" y="84" width="94" height="29"/>
+                    <connections>
+                        <action selector="rightStepperChanged:" destination="-1" eventType="valueChanged" id="mUX-O2-5ha"/>
+                    </connections>
+                </stepper>
+                <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="sNE-1N-DQf">
+                    <rect key="frame" x="20" y="84" width="94" height="29"/>
+                    <connections>
+                        <action selector="leftStepperChanged:" destination="-1" eventType="valueChanged" id="MLj-zF-vqh"/>
+                    </connections>
+                </stepper>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qWN-Ht-QW3">
+                    <rect key="frame" x="20" y="225" width="208" height="33"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="4. Tap here to fix the layout"/>
+                    <connections>
+                        <action selector="forceBarLayout:" destination="-1" eventType="touchUpInside" id="Wg7-K9-JRE"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DxZ-iZ-Lna">
+                    <rect key="frame" x="20" y="135" width="560" height="82"/>
+                    <string key="text">1. Tap either + button until the back button is truncated.
+2. Then tap the - button so there should be space for the full back button.
+3. Notice the back button stays truncated.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.98943418264389038" green="0.95794391632080078" blue="0.86405980587005615" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="DxZ-iZ-Lna" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="3bV-3L-asX"/>
+                <constraint firstItem="qWN-Ht-QW3" firstAttribute="leading" secondItem="DxZ-iZ-Lna" secondAttribute="leading" id="8FX-ic-1Ok"/>
+                <constraint firstAttribute="trailing" secondItem="OlW-ot-bII" secondAttribute="trailing" constant="20" symbolic="YES" id="B3P-No-U7G"/>
+                <constraint firstItem="KeA-HZ-rxG" firstAttribute="centerY" secondItem="sNE-1N-DQf" secondAttribute="centerY" id="DMk-vT-3OR"/>
+                <constraint firstAttribute="trailing" secondItem="DxZ-iZ-Lna" secondAttribute="trailing" constant="20" symbolic="YES" id="Hul-7A-MWF"/>
+                <constraint firstItem="KeA-HZ-rxG" firstAttribute="centerX" secondItem="qWN-Ht-QW3" secondAttribute="centerX" id="IWY-LN-vHK"/>
+                <constraint firstItem="qWN-Ht-QW3" firstAttribute="top" secondItem="DxZ-iZ-Lna" secondAttribute="bottom" constant="8" symbolic="YES" id="Jx6-SB-FqC"/>
+                <constraint firstItem="DxZ-iZ-Lna" firstAttribute="top" secondItem="KeA-HZ-rxG" secondAttribute="bottom" constant="20" id="M7D-iZ-Z0x"/>
+                <constraint firstItem="sNE-1N-DQf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="MCG-qj-8Iy"/>
+                <constraint firstItem="OlW-ot-bII" firstAttribute="centerY" secondItem="KeA-HZ-rxG" secondAttribute="centerY" id="Uk6-J1-iR3"/>
+                <constraint firstItem="KeA-HZ-rxG" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ftQ-Lm-N0x"/>
+                <constraint firstItem="sNE-1N-DQf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="84" id="wPK-e9-wdV"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="IWY-LN-vHK"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>
