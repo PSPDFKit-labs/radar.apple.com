@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2822B4C1ABB2D85009EA3DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2822B4B1ABB2D85009EA3DB /* main.m */; };
+		D2822B4F1ABB2D85009EA3DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2822B4E1ABB2D85009EA3DB /* AppDelegate.m */; };
+		D2822B551ABB2D85009EA3DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2822B531ABB2D85009EA3DB /* Main.storyboard */; };
+		D2822B571ABB2D85009EA3DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2822B561ABB2D85009EA3DB /* Images.xcassets */; };
+		D2822B5A1ABB2D85009EA3DB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2822B581ABB2D85009EA3DB /* LaunchScreen.xib */; };
+		D2822B661ABB2D85009EA3DB /* InfCGPointSerializationSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2822B651ABB2D85009EA3DB /* InfCGPointSerializationSampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2822B601ABB2D85009EA3DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2822B3E1ABB2D85009EA3DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2822B451ABB2D85009EA3DB;
+			remoteInfo = InfCGPointSerializationSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2822B461ABB2D85009EA3DB /* InfCGPointSerializationSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfCGPointSerializationSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2822B4A1ABB2D85009EA3DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2822B4B1ABB2D85009EA3DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2822B4D1ABB2D85009EA3DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2822B4E1ABB2D85009EA3DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2822B541ABB2D85009EA3DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2822B561ABB2D85009EA3DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D2822B591ABB2D85009EA3DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D2822B5F1ABB2D85009EA3DB /* InfCGPointSerializationSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfCGPointSerializationSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2822B641ABB2D85009EA3DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2822B651ABB2D85009EA3DB /* InfCGPointSerializationSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfCGPointSerializationSampleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2822B431ABB2D85009EA3DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2822B5C1ABB2D85009EA3DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2822B3D1ABB2D85009EA3DB = {
+			isa = PBXGroup;
+			children = (
+				D2822B481ABB2D85009EA3DB /* InfCGPointSerializationSample */,
+				D2822B621ABB2D85009EA3DB /* InfCGPointSerializationSampleTests */,
+				D2822B471ABB2D85009EA3DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2822B471ABB2D85009EA3DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2822B461ABB2D85009EA3DB /* InfCGPointSerializationSample.app */,
+				D2822B5F1ABB2D85009EA3DB /* InfCGPointSerializationSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2822B481ABB2D85009EA3DB /* InfCGPointSerializationSample */ = {
+			isa = PBXGroup;
+			children = (
+				D2822B4D1ABB2D85009EA3DB /* AppDelegate.h */,
+				D2822B4E1ABB2D85009EA3DB /* AppDelegate.m */,
+				D2822B531ABB2D85009EA3DB /* Main.storyboard */,
+				D2822B581ABB2D85009EA3DB /* LaunchScreen.xib */,
+				D2822B561ABB2D85009EA3DB /* Images.xcassets */,
+				D2822B491ABB2D85009EA3DB /* Supporting Files */,
+			);
+			path = InfCGPointSerializationSample;
+			sourceTree = "<group>";
+		};
+		D2822B491ABB2D85009EA3DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2822B4A1ABB2D85009EA3DB /* Info.plist */,
+				D2822B4B1ABB2D85009EA3DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2822B621ABB2D85009EA3DB /* InfCGPointSerializationSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2822B651ABB2D85009EA3DB /* InfCGPointSerializationSampleTests.m */,
+				D2822B631ABB2D85009EA3DB /* Supporting Files */,
+			);
+			path = InfCGPointSerializationSampleTests;
+			sourceTree = "<group>";
+		};
+		D2822B631ABB2D85009EA3DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2822B641ABB2D85009EA3DB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2822B451ABB2D85009EA3DB /* InfCGPointSerializationSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2822B691ABB2D85009EA3DB /* Build configuration list for PBXNativeTarget "InfCGPointSerializationSample" */;
+			buildPhases = (
+				D2822B421ABB2D85009EA3DB /* Sources */,
+				D2822B431ABB2D85009EA3DB /* Frameworks */,
+				D2822B441ABB2D85009EA3DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InfCGPointSerializationSample;
+			productName = InfCGPointSerializationSample;
+			productReference = D2822B461ABB2D85009EA3DB /* InfCGPointSerializationSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2822B5E1ABB2D85009EA3DB /* InfCGPointSerializationSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2822B6C1ABB2D85009EA3DB /* Build configuration list for PBXNativeTarget "InfCGPointSerializationSampleTests" */;
+			buildPhases = (
+				D2822B5B1ABB2D85009EA3DB /* Sources */,
+				D2822B5C1ABB2D85009EA3DB /* Frameworks */,
+				D2822B5D1ABB2D85009EA3DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2822B611ABB2D85009EA3DB /* PBXTargetDependency */,
+			);
+			name = InfCGPointSerializationSampleTests;
+			productName = InfCGPointSerializationSampleTests;
+			productReference = D2822B5F1ABB2D85009EA3DB /* InfCGPointSerializationSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2822B3E1ABB2D85009EA3DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = PSPDFKit;
+				TargetAttributes = {
+					D2822B451ABB2D85009EA3DB = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					D2822B5E1ABB2D85009EA3DB = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = D2822B451ABB2D85009EA3DB;
+					};
+				};
+			};
+			buildConfigurationList = D2822B411ABB2D85009EA3DB /* Build configuration list for PBXProject "InfCGPointSerializationSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2822B3D1ABB2D85009EA3DB;
+			productRefGroup = D2822B471ABB2D85009EA3DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2822B451ABB2D85009EA3DB /* InfCGPointSerializationSample */,
+				D2822B5E1ABB2D85009EA3DB /* InfCGPointSerializationSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2822B441ABB2D85009EA3DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2822B551ABB2D85009EA3DB /* Main.storyboard in Resources */,
+				D2822B5A1ABB2D85009EA3DB /* LaunchScreen.xib in Resources */,
+				D2822B571ABB2D85009EA3DB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2822B5D1ABB2D85009EA3DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2822B421ABB2D85009EA3DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2822B4F1ABB2D85009EA3DB /* AppDelegate.m in Sources */,
+				D2822B4C1ABB2D85009EA3DB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2822B5B1ABB2D85009EA3DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2822B661ABB2D85009EA3DB /* InfCGPointSerializationSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2822B611ABB2D85009EA3DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2822B451ABB2D85009EA3DB /* InfCGPointSerializationSample */;
+			targetProxy = D2822B601ABB2D85009EA3DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2822B531ABB2D85009EA3DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2822B541ABB2D85009EA3DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2822B581ABB2D85009EA3DB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2822B591ABB2D85009EA3DB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2822B671ABB2D85009EA3DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D2822B681ABB2D85009EA3DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2822B6A1ABB2D85009EA3DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InfCGPointSerializationSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2822B6B1ABB2D85009EA3DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InfCGPointSerializationSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2822B6D1ABB2D85009EA3DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InfCGPointSerializationSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InfCGPointSerializationSample.app/InfCGPointSerializationSample";
+			};
+			name = Debug;
+		};
+		D2822B6E1ABB2D85009EA3DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InfCGPointSerializationSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InfCGPointSerializationSample.app/InfCGPointSerializationSample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2822B411ABB2D85009EA3DB /* Build configuration list for PBXProject "InfCGPointSerializationSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2822B671ABB2D85009EA3DB /* Debug */,
+				D2822B681ABB2D85009EA3DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2822B691ABB2D85009EA3DB /* Build configuration list for PBXNativeTarget "InfCGPointSerializationSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2822B6A1ABB2D85009EA3DB /* Debug */,
+				D2822B6B1ABB2D85009EA3DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D2822B6C1ABB2D85009EA3DB /* Build configuration list for PBXNativeTarget "InfCGPointSerializationSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2822B6D1ABB2D85009EA3DB /* Debug */,
+				D2822B6E1ABB2D85009EA3DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2822B3E1ABB2D85009EA3DB /* Project object */;
+}
