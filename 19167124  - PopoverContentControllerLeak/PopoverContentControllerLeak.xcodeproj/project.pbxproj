@@ -13,7 +13,6 @@
 		780E3D1D1A3301260071B558 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 780E3D1B1A3301260071B558 /* Main.storyboard */; };
 		780E3D1F1A3301260071B558 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 780E3D1E1A3301260071B558 /* Images.xcassets */; };
 		780E3D221A3301260071B558 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 780E3D201A3301260071B558 /* LaunchScreen.xib */; };
-		780E3D2E1A3301260071B558 /* PopoverContentControllerLeakTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 780E3D2D1A3301260071B558 /* PopoverContentControllerLeakTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +37,6 @@
 		780E3D1E1A3301260071B558 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		780E3D211A3301260071B558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		780E3D271A3301260071B558 /* PopoverContentControllerLeakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopoverContentControllerLeakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		780E3D2C1A3301260071B558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		780E3D2D1A3301260071B558 /* PopoverContentControllerLeakTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopoverContentControllerLeakTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				780E3D101A3301260071B558 /* PopoverContentControllerLeak */,
-				780E3D2A1A3301260071B558 /* PopoverContentControllerLeakTests */,
 				780E3D0F1A3301260071B558 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,23 +94,6 @@
 			children = (
 				780E3D121A3301260071B558 /* Info.plist */,
 				780E3D131A3301260071B558 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		780E3D2A1A3301260071B558 /* PopoverContentControllerLeakTests */ = {
-			isa = PBXGroup;
-			children = (
-				780E3D2D1A3301260071B558 /* PopoverContentControllerLeakTests.m */,
-				780E3D2B1A3301260071B558 /* Supporting Files */,
-			);
-			path = PopoverContentControllerLeakTests;
-			sourceTree = "<group>";
-		};
-		780E3D2B1A3301260071B558 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				780E3D2C1A3301260071B558 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -229,7 +208,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				780E3D2E1A3301260071B558 /* PopoverContentControllerLeakTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +392,7 @@
 				780E3D331A3301260071B558 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		780E3D341A3301260071B558 /* Build configuration list for PBXNativeTarget "PopoverContentControllerLeakTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +401,7 @@
 				780E3D361A3301260071B558 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

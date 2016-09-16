@@ -1,3 +1,7 @@
+## UIAlertController based action sheet layout breaks in certain configurations
+
+http://openradar.appspot.com/20020818
+
 Summary:
 UIAlertController in UIAlertControllerStyleActionSheet style exhibits auto layout issues when presented anchored to certain screen positions. 
 
@@ -14,4 +18,4 @@ Regression:
 The issue only seems to occur when the popover arrow is pointing left or right. A possible workaround is to restrict the possible arrow directions to up and down. 
 
 
-iOS 9.3.2: Still broken
+Tested on iOS 10 GM, not fixed.

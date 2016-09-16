@@ -15,7 +15,6 @@
 		D28E9E121959BB8F00C8B8F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D28E9E111959BB8F00C8B8F1 /* AppDelegate.m */; };
 		D28E9E1B1959BB9000C8B8F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D28E9E191959BB9000C8B8F1 /* Main.storyboard */; };
 		D28E9E1D1959BB9000C8B8F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D28E9E1C1959BB9000C8B8F1 /* Images.xcassets */; };
-		D28E9E291959BB9000C8B8F1 /* PopoverContentSizeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D28E9E281959BB9000C8B8F1 /* PopoverContentSizeTestTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +40,6 @@
 		D28E9E1A1959BB9000C8B8F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D28E9E1C1959BB9000C8B8F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D28E9E221959BB9000C8B8F1 /* PopoverContentSizeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopoverContentSizeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D28E9E271959BB9000C8B8F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D28E9E281959BB9000C8B8F1 /* PopoverContentSizeTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopoverContentSizeTestTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				D28E9E0B1959BB8F00C8B8F1 /* PopoverContentSizeTest */,
-				D28E9E251959BB9000C8B8F1 /* PopoverContentSizeTestTests */,
 				D28E9E0A1959BB8F00C8B8F1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,23 +98,6 @@
 			children = (
 				D28E9E0D1959BB8F00C8B8F1 /* Info.plist */,
 				D28E9E0E1959BB8F00C8B8F1 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D28E9E251959BB9000C8B8F1 /* PopoverContentSizeTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				D28E9E281959BB9000C8B8F1 /* PopoverContentSizeTestTests.m */,
-				D28E9E261959BB9000C8B8F1 /* Supporting Files */,
-			);
-			path = PopoverContentSizeTestTests;
-			sourceTree = "<group>";
-		};
-		D28E9E261959BB9000C8B8F1 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D28E9E271959BB9000C8B8F1 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -234,7 +213,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2172C941959BD6600C79E09 /* FirstViewController.m in Sources */,
-				D28E9E291959BB9000C8B8F1 /* PopoverContentSizeTestTests.m in Sources */,
 				D25875F71959C22C00B996CD /* PresenterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

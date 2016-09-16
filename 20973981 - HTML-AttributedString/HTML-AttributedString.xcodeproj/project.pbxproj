@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		A91673731B06117A00677822 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A91673721B06117A00677822 /* main.m */; };
 		A91673761B06117A00677822 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A91673751B06117A00677822 /* AppDelegate.m */; };
-		A91673901B06117A00677822 /* HTML_AttributedStringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A916738F1B06117A00677822 /* HTML_AttributedStringTests.m */; };
 		A916739A1B0611B500677822 /* page.html in Resources */ = {isa = PBXBuildFile; fileRef = A91673991B0611B500677822 /* page.html */; };
 /* End PBXBuildFile section */
 
@@ -30,8 +29,6 @@
 		A91673741B06117A00677822 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A91673751B06117A00677822 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A91673891B06117A00677822 /* HTML-AttributedStringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HTML-AttributedStringTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A916738E1B06117A00677822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A916738F1B06117A00677822 /* HTML_AttributedStringTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTML_AttributedStringTests.m; sourceTree = "<group>"; };
 		A91673991B0611B500677822 /* page.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = page.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				A916736F1B06117A00677822 /* HTML-AttributedString */,
-				A916738C1B06117A00677822 /* HTML-AttributedStringTests */,
 				A916736E1B06117A00677822 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,23 +83,6 @@
 			children = (
 				A91673711B06117A00677822 /* Info.plist */,
 				A91673721B06117A00677822 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A916738C1B06117A00677822 /* HTML-AttributedStringTests */ = {
-			isa = PBXGroup;
-			children = (
-				A916738F1B06117A00677822 /* HTML_AttributedStringTests.m */,
-				A916738D1B06117A00677822 /* Supporting Files */,
-			);
-			path = "HTML-AttributedStringTests";
-			sourceTree = "<group>";
-		};
-		A916738D1B06117A00677822 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				A916738E1B06117A00677822 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -215,7 +194,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A91673901B06117A00677822 /* HTML_AttributedStringTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +361,7 @@
 				A91673951B06117A00677822 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A91673961B06117A00677822 /* Build configuration list for PBXNativeTarget "HTML-AttributedStringTests" */ = {
 			isa = XCConfigurationList;
@@ -391,6 +370,7 @@
 				A91673981B06117A00677822 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

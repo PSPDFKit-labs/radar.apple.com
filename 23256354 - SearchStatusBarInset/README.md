@@ -1,3 +1,7 @@
+## Status bar inset applied twice
+
+http://openradar.appspot.com/23256354
+
 Summary:
 When UISearchController is used in a view in a popover presentation that adapts from popover to full screen, the table view ends up inset 20 points lower than expected.
 
@@ -32,4 +36,4 @@ If you look carefully, the table content is 20 points too low immediately after 
 
 
 
-Still an issue in iOS 9.3.2
+Tested on iOS 10 GM, still broken.

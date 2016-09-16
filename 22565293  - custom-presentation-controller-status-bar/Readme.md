@@ -1,3 +1,7 @@
+## Custom presentation controllers are forced to change the status bar view controller
+
+http://openradar.appspot.com/22565293
+
 Summary:
 When a view controller is presented, it may or may not become the view controller specifying the appearance of the status bar. There is no public API to control this,  forcing custom UIPresentationController subclasses to make their presented view controller the status bar view controller.
 

@@ -18,7 +18,7 @@
 
     // BUG: Uncomment to fix the section colors.
     // This is a getter - should not have side effects (but it reloads the cells if frame is different...)
-    [self.tableView visibleCells];
+  //  [self.tableView visibleCells];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {

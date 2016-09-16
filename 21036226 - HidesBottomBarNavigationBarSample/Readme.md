@@ -1,3 +1,7 @@
+## UINavigationBar exhibits visual glitch when pushing a view controller with hidesBottomBarWhenPushed enabled
+
+http://openradar.appspot.com/21036226
+
 Summary:
 
 When a view controller with hidesBottomBarWhenPushed enabled is pushed onto a navigation stack that also contains a UITabBarController with a visible tabbar, the UINavigationBar (belonging to UINavigationController) exhibits a visual glitch. 
@@ -19,4 +23,4 @@ Regression:
 iOS 8, iPad and iPhone, also observable in the iOS simulator
 
 
-Still present in iOS 9.3.2
+Tested on iOS 10 GM, still broken.

@@ -13,7 +13,6 @@
 		78128CCF1A1EA3220058B468 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78128CCD1A1EA3220058B468 /* Main.storyboard */; };
 		78128CD11A1EA3220058B468 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78128CD01A1EA3220058B468 /* Images.xcassets */; };
 		78128CD41A1EA3220058B468 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78128CD21A1EA3220058B468 /* LaunchScreen.xib */; };
-		78128CE01A1EA3220058B468 /* AutomaticallyAdjustsContentInsetRegressionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78128CDF1A1EA3220058B468 /* AutomaticallyAdjustsContentInsetRegressionTests.m */; };
 		78128CEB1A1EC0CB0058B468 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78128CEA1A1EC0CB0058B468 /* ContainerViewController.m */; };
 		78128CEE1A1EC0E80058B468 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78128CED1A1EC0E80058B468 /* CollectionViewController.m */; };
 /* End PBXBuildFile section */
@@ -40,8 +39,6 @@
 		78128CD01A1EA3220058B468 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		78128CD31A1EA3220058B468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		78128CD91A1EA3220058B468 /* AutomaticallyAdjustsContentInsetRegressionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutomaticallyAdjustsContentInsetRegressionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		78128CDE1A1EA3220058B468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		78128CDF1A1EA3220058B468 /* AutomaticallyAdjustsContentInsetRegressionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutomaticallyAdjustsContentInsetRegressionTests.m; sourceTree = "<group>"; };
 		78128CE91A1EC0CB0058B468 /* ContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
 		78128CEA1A1EC0CB0058B468 /* ContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
 		78128CEC1A1EC0E80058B468 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
@@ -70,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				78128CC21A1EA3220058B468 /* AutomaticallyAdjustsContentInsetRegression */,
-				78128CDC1A1EA3220058B468 /* AutomaticallyAdjustsContentInsetRegressionTests */,
 				78128CC11A1EA3220058B468 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,23 +104,6 @@
 			children = (
 				78128CC41A1EA3220058B468 /* Info.plist */,
 				78128CC51A1EA3220058B468 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		78128CDC1A1EA3220058B468 /* AutomaticallyAdjustsContentInsetRegressionTests */ = {
-			isa = PBXGroup;
-			children = (
-				78128CDF1A1EA3220058B468 /* AutomaticallyAdjustsContentInsetRegressionTests.m */,
-				78128CDD1A1EA3220058B468 /* Supporting Files */,
-			);
-			path = AutomaticallyAdjustsContentInsetRegressionTests;
-			sourceTree = "<group>";
-		};
-		78128CDD1A1EA3220058B468 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				78128CDE1A1EA3220058B468 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -241,7 +220,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78128CE01A1EA3220058B468 /* AutomaticallyAdjustsContentInsetRegressionTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +406,7 @@
 				78128CE51A1EA3220058B468 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78128CE61A1EA3220058B468 /* Build configuration list for PBXNativeTarget "AutomaticallyAdjustsContentInsetRegressionTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +415,7 @@
 				78128CE81A1EA3220058B468 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

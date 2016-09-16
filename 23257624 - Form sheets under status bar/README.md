@@ -1,4 +1,7 @@
- 
+## Form sheets underneath status bar on iPad in compact widths
+
+http://openradar.appspot.com/23257624
+
 Summary:
 Form sheets appear underneath the status bar on iPad in horizontally compact environments (This happens when using Split View.)
 
@@ -26,4 +29,4 @@ This problem does not happen if the presented view has a preferredContentSize. T
 Configuration:
 iPad Air 2 simulator
 
-Still issue in iOS 9.3.2
+Tested on iOS 10 GM, still broken.

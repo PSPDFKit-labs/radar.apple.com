@@ -1,3 +1,7 @@
+## UISearchDisplayController does not correctly hide the navigation bar when UIPopoverController
+
+http://openradar.appspot.com/18452754
+
 Summary:
 UISearchDisplayController usually expands and hides the navigation bar when it is activated provided its content controller is the top view controller of the enclosing navigation bar. 
 

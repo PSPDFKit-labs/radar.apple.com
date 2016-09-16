@@ -12,7 +12,6 @@
 		788A9A3F1A74FEB500E94104 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 788A9A3E1A74FEB500E94104 /* ViewController.m */; };
 		788A9A441A74FEB500E94104 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 788A9A431A74FEB500E94104 /* Images.xcassets */; };
 		788A9A471A74FEB500E94104 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 788A9A451A74FEB500E94104 /* LaunchScreen.xib */; };
-		788A9A531A74FEB500E94104 /* WindowRotationIssueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 788A9A521A74FEB500E94104 /* WindowRotationIssueTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +35,6 @@
 		788A9A431A74FEB500E94104 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		788A9A461A74FEB500E94104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		788A9A4C1A74FEB500E94104 /* WindowRotationIssueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WindowRotationIssueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		788A9A511A74FEB500E94104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		788A9A521A74FEB500E94104 /* WindowRotationIssueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WindowRotationIssueTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				788A9A351A74FEB500E94104 /* WindowRotationIssue */,
-				788A9A4F1A74FEB500E94104 /* WindowRotationIssueTests */,
 				788A9A341A74FEB500E94104 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,23 +91,6 @@
 			children = (
 				788A9A371A74FEB500E94104 /* Info.plist */,
 				788A9A381A74FEB500E94104 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		788A9A4F1A74FEB500E94104 /* WindowRotationIssueTests */ = {
-			isa = PBXGroup;
-			children = (
-				788A9A521A74FEB500E94104 /* WindowRotationIssueTests.m */,
-				788A9A501A74FEB500E94104 /* Supporting Files */,
-			);
-			path = WindowRotationIssueTests;
-			sourceTree = "<group>";
-		};
-		788A9A501A74FEB500E94104 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				788A9A511A74FEB500E94104 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -225,7 +204,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				788A9A531A74FEB500E94104 /* WindowRotationIssueTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +382,7 @@
 				788A9A581A74FEB500E94104 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		788A9A591A74FEB500E94104 /* Build configuration list for PBXNativeTarget "WindowRotationIssueTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +391,7 @@
 				788A9A5B1A74FEB500E94104 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

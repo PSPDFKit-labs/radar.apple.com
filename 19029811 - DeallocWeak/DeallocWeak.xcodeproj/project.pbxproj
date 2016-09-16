@@ -12,7 +12,6 @@
 		787D6A2A1A1CE336004C88D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 787D6A281A1CE336004C88D8 /* Main.storyboard */; };
 		787D6A2C1A1CE336004C88D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 787D6A2B1A1CE336004C88D8 /* Images.xcassets */; };
 		787D6A2F1A1CE336004C88D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 787D6A2D1A1CE336004C88D8 /* LaunchScreen.xib */; };
-		787D6A3B1A1CE336004C88D8 /* DeallocWeakTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 787D6A3A1A1CE336004C88D8 /* DeallocWeakTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +34,6 @@
 		787D6A2B1A1CE336004C88D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		787D6A2E1A1CE336004C88D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		787D6A341A1CE336004C88D8 /* DeallocWeakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeallocWeakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		787D6A391A1CE336004C88D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		787D6A3A1A1CE336004C88D8 /* DeallocWeakTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeallocWeakTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				787D6A1D1A1CE336004C88D8 /* DeallocWeak */,
-				787D6A371A1CE336004C88D8 /* DeallocWeakTests */,
 				787D6A1C1A1CE336004C88D8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,23 +89,6 @@
 			children = (
 				787D6A1F1A1CE336004C88D8 /* Info.plist */,
 				787D6A201A1CE336004C88D8 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		787D6A371A1CE336004C88D8 /* DeallocWeakTests */ = {
-			isa = PBXGroup;
-			children = (
-				787D6A3A1A1CE336004C88D8 /* DeallocWeakTests.m */,
-				787D6A381A1CE336004C88D8 /* Supporting Files */,
-			);
-			path = DeallocWeakTests;
-			sourceTree = "<group>";
-		};
-		787D6A381A1CE336004C88D8 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				787D6A391A1CE336004C88D8 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -223,7 +202,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				787D6A3B1A1CE336004C88D8 /* DeallocWeakTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +386,7 @@
 				787D6A401A1CE336004C88D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		787D6A411A1CE336004C88D8 /* Build configuration list for PBXNativeTarget "DeallocWeakTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +395,7 @@
 				787D6A431A1CE336004C88D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

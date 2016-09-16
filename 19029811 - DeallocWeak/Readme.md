@@ -1,3 +1,7 @@
+## Refencing an object weakly during dealloc leads to a runtime trap/crash.
+
+http://openradar.appspot.com/19029811
+
 Summary:
 Referencing an object weakly during dealloc leads to a runtime trap/crash. 
 
@@ -16,4 +20,4 @@ Always crashed.
 Notes:
 From http://opensource.apple.com/source/objc4/objc4-646/runtime/objc-weak.mm i see that this was a conscious decision, but it’s still a source of hard-to-debug bugs and something that is quite unexpected. weak should in that case be either the object or nil, but not cause an abort.
 
-Still present in iOS 9.3.2
+Tested on iOS 10 GM, not fixed.

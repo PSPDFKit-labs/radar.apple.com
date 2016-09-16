@@ -1,3 +1,7 @@
+## UI frozen after rotating due to animation completion handler not called
+
+http://openradar.appspot.com/25337014
+
 Summary:
 In UIView based animations an animation’s completion handler is not called reliable. You can easily break that by calling -[UIView actionForLayer:forKey:] within an animation block.
 What is even worth is: If you happen to call this inside your layout code, this will get executed within a window rotation. This results in rotation being broken (no rotation possible after this) and the UI being completely unresponsive as the rotation animation isn’t cleaned up (-[UIApplication isIgnoringInteractionEvents] is still YES after the animation).

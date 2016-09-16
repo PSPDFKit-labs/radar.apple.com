@@ -1,3 +1,8 @@
+## iOS Simulator 8.2: UICollectionView crash on `insertItemsAtIndexPaths:`
+
+
+http://openradar.appspot.com/20312578
+
 Summary:
 UICollectionView crashes if it is used as a `[UISearchController searchResultsController]` and the first `updateSearchResultsForSearchController:` calls `[UICollectionView insertItemsAtIndexPaths:]`.
 
@@ -17,4 +22,4 @@ Regression:
 I could only reproduce it on the iOS Simulator (iOS 8.1, iOS 8.2) but not on my iPhone 5 (iOS 8.2).
 
 
-Still broken on iOS 9.3.2
+Tested on iOS 10 GM, not fixed.

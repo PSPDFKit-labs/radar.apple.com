@@ -120,10 +120,11 @@
 				TargetAttributes = {
 					78DF0B791BE01BC90036C048 = {
 						CreatedOnToolsVersion = 7.1;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
-			buildConfigurationList = 78DF0B751BE01BC90036C048 /* Build configuration list for PBXProject "SwiftLambdaBlock" */;
+			buildConfigurationList = 78DF0B751BE01BC90036C048 /* Build configuration list for PBXProject "AttributeNoEscape" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -282,6 +283,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SwiftLambdaBlock/SwiftLambdaBlock-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -295,13 +297,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = PSPDFKit.SwiftLambdaBlock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SwiftLambdaBlock/SwiftLambdaBlock-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		78DF0B751BE01BC90036C048 /* Build configuration list for PBXProject "SwiftLambdaBlock" */ = {
+		78DF0B751BE01BC90036C048 /* Build configuration list for PBXProject "AttributeNoEscape" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				78DF0B8F1BE01BC90036C048 /* Debug */,

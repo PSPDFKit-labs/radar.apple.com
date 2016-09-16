@@ -12,7 +12,6 @@
 		D28541C81B0C8C180025626B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D28541C61B0C8C180025626B /* Main.storyboard */; };
 		D28541CA1B0C8C180025626B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D28541C91B0C8C180025626B /* Images.xcassets */; };
 		D28541CD1B0C8C180025626B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D28541CB1B0C8C180025626B /* LaunchScreen.xib */; };
-		D28541D91B0C8C180025626B /* HiddenTabBarOffsetIssueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D28541D81B0C8C180025626B /* HiddenTabBarOffsetIssueTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +34,6 @@
 		D28541C91B0C8C180025626B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D28541CC1B0C8C180025626B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D28541D21B0C8C180025626B /* HiddenTabBarOffsetIssueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiddenTabBarOffsetIssueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D28541D71B0C8C180025626B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D28541D81B0C8C180025626B /* HiddenTabBarOffsetIssueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HiddenTabBarOffsetIssueTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				D28541BB1B0C8C180025626B /* HiddenTabBarOffsetIssue */,
-				D28541D51B0C8C180025626B /* HiddenTabBarOffsetIssueTests */,
 				D28541BA1B0C8C180025626B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,23 +89,6 @@
 			children = (
 				D28541BD1B0C8C180025626B /* Info.plist */,
 				D28541BE1B0C8C180025626B /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D28541D51B0C8C180025626B /* HiddenTabBarOffsetIssueTests */ = {
-			isa = PBXGroup;
-			children = (
-				D28541D81B0C8C180025626B /* HiddenTabBarOffsetIssueTests.m */,
-				D28541D61B0C8C180025626B /* Supporting Files */,
-			);
-			path = HiddenTabBarOffsetIssueTests;
-			sourceTree = "<group>";
-		};
-		D28541D61B0C8C180025626B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D28541D71B0C8C180025626B /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -223,7 +202,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D28541D91B0C8C180025626B /* HiddenTabBarOffsetIssueTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

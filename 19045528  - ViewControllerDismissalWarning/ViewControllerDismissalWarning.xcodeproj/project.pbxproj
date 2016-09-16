@@ -13,7 +13,6 @@
 		78128C9D1A1E60100058B468 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78128C9B1A1E60100058B468 /* Main.storyboard */; };
 		78128C9F1A1E60100058B468 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78128C9E1A1E60100058B468 /* Images.xcassets */; };
 		78128CA21A1E60100058B468 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78128CA01A1E60100058B468 /* LaunchScreen.xib */; };
-		78128CAE1A1E60100058B468 /* ViewControllerDismissalWarningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78128CAD1A1E60100058B468 /* ViewControllerDismissalWarningTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +37,6 @@
 		78128C9E1A1E60100058B468 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		78128CA11A1E60100058B468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		78128CA71A1E60100058B468 /* ViewControllerDismissalWarningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewControllerDismissalWarningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		78128CAC1A1E60100058B468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		78128CAD1A1E60100058B468 /* ViewControllerDismissalWarningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerDismissalWarningTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				78128C901A1E60100058B468 /* ViewControllerDismissalWarning */,
-				78128CAA1A1E60100058B468 /* ViewControllerDismissalWarningTests */,
 				78128C8F1A1E60100058B468 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,23 +94,6 @@
 			children = (
 				78128C921A1E60100058B468 /* Info.plist */,
 				78128C931A1E60100058B468 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		78128CAA1A1E60100058B468 /* ViewControllerDismissalWarningTests */ = {
-			isa = PBXGroup;
-			children = (
-				78128CAD1A1E60100058B468 /* ViewControllerDismissalWarningTests.m */,
-				78128CAB1A1E60100058B468 /* Supporting Files */,
-			);
-			path = ViewControllerDismissalWarningTests;
-			sourceTree = "<group>";
-		};
-		78128CAB1A1E60100058B468 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				78128CAC1A1E60100058B468 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -229,7 +208,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78128CAE1A1E60100058B468 /* ViewControllerDismissalWarningTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +392,7 @@
 				78128CB31A1E60100058B468 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78128CB41A1E60100058B468 /* Build configuration list for PBXNativeTarget "ViewControllerDismissalWarningTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +401,7 @@
 				78128CB61A1E60100058B468 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

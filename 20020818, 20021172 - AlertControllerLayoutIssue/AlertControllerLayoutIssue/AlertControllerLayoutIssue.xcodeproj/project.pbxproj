@@ -13,7 +13,6 @@
 		D29D79821AA5DDE30033D407 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D29D79801AA5DDE30033D407 /* Main.storyboard */; };
 		D29D79841AA5DDE40033D407 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D29D79831AA5DDE40033D407 /* Images.xcassets */; };
 		D29D79871AA5DDE40033D407 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D29D79851AA5DDE40033D407 /* LaunchScreen.xib */; };
-		D29D79931AA5DDE40033D407 /* AlertControllerLayoutIssueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D29D79921AA5DDE40033D407 /* AlertControllerLayoutIssueTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +37,6 @@
 		D29D79831AA5DDE40033D407 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D29D79861AA5DDE40033D407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D29D798C1AA5DDE40033D407 /* AlertControllerLayoutIssueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertControllerLayoutIssueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D29D79911AA5DDE40033D407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D29D79921AA5DDE40033D407 /* AlertControllerLayoutIssueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertControllerLayoutIssueTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				D29D79751AA5DDE30033D407 /* AlertControllerLayoutIssue */,
-				D29D798F1AA5DDE40033D407 /* AlertControllerLayoutIssueTests */,
 				D29D79741AA5DDE30033D407 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,23 +94,6 @@
 			children = (
 				D29D79771AA5DDE30033D407 /* Info.plist */,
 				D29D79781AA5DDE30033D407 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D29D798F1AA5DDE40033D407 /* AlertControllerLayoutIssueTests */ = {
-			isa = PBXGroup;
-			children = (
-				D29D79921AA5DDE40033D407 /* AlertControllerLayoutIssueTests.m */,
-				D29D79901AA5DDE40033D407 /* Supporting Files */,
-			);
-			path = AlertControllerLayoutIssueTests;
-			sourceTree = "<group>";
-		};
-		D29D79901AA5DDE40033D407 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D29D79911AA5DDE40033D407 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -229,7 +208,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D29D79931AA5DDE40033D407 /* AlertControllerLayoutIssueTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +392,7 @@
 				D29D79981AA5DDE40033D407 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D29D79991AA5DDE40033D407 /* Build configuration list for PBXNativeTarget "AlertControllerLayoutIssueTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +401,7 @@
 				D29D799B1AA5DDE40033D407 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

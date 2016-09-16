@@ -1,3 +1,7 @@
+## NSAttributedString from HTML data: slow and main thread only
+
+http://openradar.appspot.com/20973981
+
 Summary:
 -[NSAttributedString initWithData:options:documentAttributes:error] is slow and can only be used on the main thread. This should work on any thread.
 
@@ -15,4 +19,4 @@ Actual Results:
 Notes:
 To be fair, I didn’t managed to build a sample that crashes, these crashers are random and are easier to happen in a larger application where more stuff is going on with different html pages being parsed at the same time.
 
-Still is the case on iOS 9.3.2
+Tested on iOS 10 GM, still broken.

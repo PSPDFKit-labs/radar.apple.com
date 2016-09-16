@@ -11,7 +11,6 @@
 		8C93D1141A0BA1E40093BDB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C93D1131A0BA1E40093BDB3 /* AppDelegate.m */; };
 		8C93D11C1A0BA1E40093BDB3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C93D11B1A0BA1E40093BDB3 /* Images.xcassets */; };
 		8C93D11F1A0BA1E40093BDB3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C93D11D1A0BA1E40093BDB3 /* LaunchScreen.xib */; };
-		8C93D12B1A0BA1E40093BDB3 /* FullscreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C93D12A1A0BA1E40093BDB3 /* FullscreenTests.m */; };
 		8C93D1371A0BA2750093BDB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C93D1351A0BA2750093BDB3 /* ViewController.m */; };
 		8C93D1381A0BA2750093BDB3 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C93D1361A0BA2750093BDB3 /* ViewController.xib */; };
 		8C93D13C1A0BA44C0093BDB3 /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C93D13A1A0BA44C0093BDB3 /* ChildViewController.m */; };
@@ -37,8 +36,6 @@
 		8C93D11B1A0BA1E40093BDB3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8C93D11E1A0BA1E40093BDB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8C93D1241A0BA1E40093BDB3 /* FullscreenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FullscreenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C93D1291A0BA1E40093BDB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8C93D12A1A0BA1E40093BDB3 /* FullscreenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FullscreenTests.m; sourceTree = "<group>"; };
 		8C93D1341A0BA2750093BDB3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8C93D1351A0BA2750093BDB3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8C93D1361A0BA2750093BDB3 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
@@ -69,7 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				8C93D10D1A0BA1E40093BDB3 /* Fullscreen */,
-				8C93D1271A0BA1E40093BDB3 /* FullscreenTests */,
 				8C93D10C1A0BA1E40093BDB3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,23 +102,6 @@
 			children = (
 				8C93D10F1A0BA1E40093BDB3 /* Info.plist */,
 				8C93D1101A0BA1E40093BDB3 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		8C93D1271A0BA1E40093BDB3 /* FullscreenTests */ = {
-			isa = PBXGroup;
-			children = (
-				8C93D12A1A0BA1E40093BDB3 /* FullscreenTests.m */,
-				8C93D1281A0BA1E40093BDB3 /* Supporting Files */,
-			);
-			path = FullscreenTests;
-			sourceTree = "<group>";
-		};
-		8C93D1281A0BA1E40093BDB3 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8C93D1291A0BA1E40093BDB3 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -239,7 +218,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C93D12B1A0BA1E40093BDB3 /* FullscreenTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +392,7 @@
 				8C93D1301A0BA1E40093BDB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8C93D1311A0BA1E40093BDB3 /* Build configuration list for PBXNativeTarget "FullscreenTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +401,7 @@
 				8C93D1331A0BA1E40093BDB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

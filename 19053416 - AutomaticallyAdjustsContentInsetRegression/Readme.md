@@ -1,3 +1,7 @@
+## automaticallyAdjustsScrollViewInsets doesn't work when view controllers are switched.
+
+http://openradar.appspot.com//19053416
+
 Summary:
 automaticallyAdjustsScrollViewInsets doesn't work when view controllers are switched.
 In this example we use transitionFromView:toView:duration:options:completion: to toggle between view controllers. (We’re not using the transitionFromViewController: API to have a more fine-grained control over certain animation aspects that are not visible in that radar).
@@ -18,3 +22,5 @@ This wasn’t a focus-point of the example, but in the complex example I have in
 
 Notes:
 Check the code for the workaround in ContainerViewController.m
+
+Tested on iOS 10 GM, not fixed.

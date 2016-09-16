@@ -1,3 +1,7 @@
+ARC doesn't automatically deduct strong ownership when using __attribute__((NSObject))
+
+http://openradar.appspot.com/20272376
+
 Summary:
 ARC doesn't automatically deduct strong when using  __attribute__((NSObject))
 
@@ -19,3 +23,5 @@ assign is implied, thus crashing.
 
 Notes:
 We shipped crashing UI code because of this unexpected behavior.
+
+Tested on iOS 10 GM, not fixed.

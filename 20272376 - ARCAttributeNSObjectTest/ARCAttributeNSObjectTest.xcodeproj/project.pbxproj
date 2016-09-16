@@ -13,7 +13,6 @@
 		782919CB1AC14E4B00518776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782919C91AC14E4B00518776 /* Main.storyboard */; };
 		782919CD1AC14E4B00518776 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 782919CC1AC14E4B00518776 /* Images.xcassets */; };
 		782919D01AC14E4B00518776 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 782919CE1AC14E4B00518776 /* LaunchScreen.xib */; };
-		782919DC1AC14E4B00518776 /* ARCAttributeNSObjectTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 782919DB1AC14E4B00518776 /* ARCAttributeNSObjectTestTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +37,6 @@
 		782919CC1AC14E4B00518776 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		782919CF1AC14E4B00518776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		782919D51AC14E4B00518776 /* ARCAttributeNSObjectTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARCAttributeNSObjectTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		782919DA1AC14E4B00518776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		782919DB1AC14E4B00518776 /* ARCAttributeNSObjectTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARCAttributeNSObjectTestTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				782919BE1AC14E4B00518776 /* ARCAttributeNSObjectTest */,
-				782919D81AC14E4B00518776 /* ARCAttributeNSObjectTestTests */,
 				782919BD1AC14E4B00518776 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,23 +94,6 @@
 			children = (
 				782919C01AC14E4B00518776 /* Info.plist */,
 				782919C11AC14E4B00518776 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		782919D81AC14E4B00518776 /* ARCAttributeNSObjectTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				782919DB1AC14E4B00518776 /* ARCAttributeNSObjectTestTests.m */,
-				782919D91AC14E4B00518776 /* Supporting Files */,
-			);
-			path = ARCAttributeNSObjectTestTests;
-			sourceTree = "<group>";
-		};
-		782919D91AC14E4B00518776 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				782919DA1AC14E4B00518776 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -229,7 +208,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				782919DC1AC14E4B00518776 /* ARCAttributeNSObjectTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +392,7 @@
 				782919E11AC14E4B00518776 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		782919E21AC14E4B00518776 /* Build configuration list for PBXNativeTarget "ARCAttributeNSObjectTestTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +401,7 @@
 				782919E41AC14E4B00518776 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

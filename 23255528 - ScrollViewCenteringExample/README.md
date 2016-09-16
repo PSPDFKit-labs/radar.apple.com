@@ -1,3 +1,7 @@
+## UIScrollView ignores fractional content offsets in some cases
+
+http://openradar.appspot.com/23255528
+
 In PSPDFKit we're using UIScrollView content insets to center PDF page views inside the viewport. In order to correctly center pages of certain sizes, we might end up with values that are fractions (say contentInset = UIEdgeInsetsMake(0, 7.5, 0, 7.5)). Setting insets like that works fine.
 
 In order to correctly position the page, the contentOffset also needs to be adjusted according to to set contentInset. In the above case contentOffset.x would need to be -7.5.
@@ -37,4 +41,4 @@ Notes:
 
 Digging into the code with the debugger revealed that using -[UIScrollView setContentInset:] triggers -[UIScrollView(UIScrollViewInternal) _adjustContentOffsetIfNecessary] which sets rounded values for the contentOffset. We tried to manually correct the value by setting the contentOffset explicitly after setting the inset, but noticed that even setContentOffset rounds internally. This appears to be only happening in some cases, mainly depending on the value of two private UIScrollView flags (disableContentOffsetRounding and alwaysDisableContentOffsetRounding).
 
-Still issue in iOS 9.3.2
+Tested on iOS 10 GM, still broken.

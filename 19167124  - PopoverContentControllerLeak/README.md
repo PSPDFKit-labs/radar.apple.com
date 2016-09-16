@@ -1,6 +1,6 @@
-rdar://19167124
+## Accessing popoverPresentationController creates a retain cycle.
 
-Peter Steinberger 06-Dec-2014 11:43 AM
+http://openradar.appspot.com//19167124
 
 Summary:
 Accessing popoverPresentationController creates a retain cycle. UIPopoverPresentationController is strongly saved in the content view controller. Then the UIPopoverPresentationController strongly references the view controller.
@@ -27,4 +27,4 @@ BTW: UIPopoverPresentationController is a new API, but it’s delegate is assign
 Update July 9, 2016:
 
 Tested on iOS 9.3.2, not fixed.
-Tested on iOS 10.0b2, not fixed
+Tested on iOS 10.0 GM, not fixed.

@@ -1,3 +1,7 @@
+## iOS 9 regression: UITableView section background is white when visibleCells is called at the wrong time.
+
+http://openradar.appspot.com/23904182
+
 UITableView section background is white when visibleCells is called at the wrong time (namely in viewWillAppear:).
 This took me a while to track down. It’s a regression that appeared first on iOS 9.0. 8.3/8.4 work as expected (haven’t tested earlier versions but this never popped up so I assume is’s really a new bug in iOS 9)
 
@@ -17,4 +21,4 @@ See example. Uncomment the call to visibleCells to work around the issue.
 Expected Results:
 The cell section background color should not change depending on when we query cells.
 
-Still an issue in iOS 9.3.2
+Tested on iOS 10 GM, not fixed.
