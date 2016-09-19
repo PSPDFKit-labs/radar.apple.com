@@ -1,3 +1,7 @@
+## xcodebuild test hangs when piping it's output
+
+http://openradar.appspot.com/27447948
+
 Summary:
 The command `xcodebuild test | tee xcodebuild.log` (or piping to any other command) hangs forever.
 This is especially bad since CI systems like Jenkins need JUnit output in XML format. This is done by piping xcodebuild’s output into commands like xcpretty. So in other words: `xcodebuild test` is currently completely unusable for CI.
@@ -22,3 +26,5 @@ Notes:
 Configuration:
 OS X 10.11.6
 Xcode beta 3 (8S174q)
+
+Tested on iOS 10 GM, not fixed.

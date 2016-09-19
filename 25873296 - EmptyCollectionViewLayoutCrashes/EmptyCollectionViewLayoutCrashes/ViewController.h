@@ -10,6 +10,8 @@
 
 @interface ViewController : UICollectionViewController
 
-
 @end
 
+@interface MyLayout : UICollectionViewLayout
+
+@end

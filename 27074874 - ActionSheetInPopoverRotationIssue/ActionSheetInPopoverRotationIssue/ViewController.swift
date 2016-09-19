@@ -14,12 +14,12 @@ class ViewController: UIViewController {
         let controller = PopoverViewController()
         let navigationController = UINavigationController(rootViewController: controller)
 
-        navigationController.modalPresentationStyle = .Popover
+        navigationController.modalPresentationStyle = .popover
         let popoverPresentation = navigationController.popoverPresentationController;
         popoverPresentation?.sourceView = sender;
         popoverPresentation?.sourceRect = sender.bounds;
 
-        self.presentViewController(navigationController, animated: true, completion: nil)
+        self.present(navigationController, animated: true, completion: nil)
     }
 
 }

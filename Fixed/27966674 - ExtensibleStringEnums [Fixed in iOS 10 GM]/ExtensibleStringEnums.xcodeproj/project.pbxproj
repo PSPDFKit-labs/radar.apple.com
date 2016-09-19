@@ -13,7 +13,6 @@
 		4C647B851D6C7EBB00E9FD41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C647B831D6C7EBB00E9FD41 /* Main.storyboard */; };
 		4C647B871D6C7EBB00E9FD41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C647B861D6C7EBB00E9FD41 /* Assets.xcassets */; };
 		4C647B8A1D6C7EBB00E9FD41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C647B881D6C7EBB00E9FD41 /* LaunchScreen.storyboard */; };
-		4C647B951D6C7EBB00E9FD41 /* ExtensibleStringEnumsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C647B941D6C7EBB00E9FD41 /* ExtensibleStringEnumsTests.m */; };
 		4C647BA11D6C7EE200E9FD41 /* Defines.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C647BA01D6C7EE200E9FD41 /* Defines.m */; };
 		4C647BA41D6C7FC300E9FD41 /* MyObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C647BA31D6C7FC200E9FD41 /* MyObject.swift */; };
 /* End PBXBuildFile section */
@@ -40,8 +39,6 @@
 		4C647B891D6C7EBB00E9FD41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C647B8B1D6C7EBB00E9FD41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C647B901D6C7EBB00E9FD41 /* ExtensibleStringEnumsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExtensibleStringEnumsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C647B941D6C7EBB00E9FD41 /* ExtensibleStringEnumsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensibleStringEnumsTests.m; sourceTree = "<group>"; };
-		4C647B961D6C7EBB00E9FD41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C647B9F1D6C7EE200E9FD41 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
 		4C647BA01D6C7EE200E9FD41 /* Defines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Defines.m; sourceTree = "<group>"; };
 		4C647BA21D6C7FC200E9FD41 /* ExtensibleStringEnums-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExtensibleStringEnums-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -70,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				4C647B791D6C7EBB00E9FD41 /* ExtensibleStringEnums */,
-				4C647B931D6C7EBB00E9FD41 /* ExtensibleStringEnumsTests */,
 				4C647B781D6C7EBB00E9FD41 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,15 +106,6 @@
 				4C647B7B1D6C7EBB00E9FD41 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		4C647B931D6C7EBB00E9FD41 /* ExtensibleStringEnumsTests */ = {
-			isa = PBXGroup;
-			children = (
-				4C647B941D6C7EBB00E9FD41 /* ExtensibleStringEnumsTests.m */,
-				4C647B961D6C7EBB00E9FD41 /* Info.plist */,
-			);
-			path = ExtensibleStringEnumsTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,7 +226,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C647B951D6C7EBB00E9FD41 /* ExtensibleStringEnumsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +429,7 @@
 				4C647B9B1D6C7EBB00E9FD41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C647B9C1D6C7EBB00E9FD41 /* Build configuration list for PBXNativeTarget "ExtensibleStringEnumsTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +438,7 @@
 				4C647B9E1D6C7EBB00E9FD41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

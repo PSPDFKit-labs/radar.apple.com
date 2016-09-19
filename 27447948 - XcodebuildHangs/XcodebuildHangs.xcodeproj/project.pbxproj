@@ -207,7 +207,6 @@
 				TargetAttributes = {
 					B99B6D861D3D3A7F002BBF6D = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = AT7BKJ42W8;
 						DevelopmentTeamName = "PSPDFKit CI (Personal Team)";
 						ProvisioningStyle = Automatic;
 					};
@@ -426,6 +425,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = XcodebuildHangs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pspdfkit.XcodebuildHangs;
@@ -437,6 +437,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = XcodebuildHangs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pspdfkit.XcodebuildHangs;
@@ -509,6 +510,7 @@
 				B99B6DB61D3D3A80002BBF6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B99B6DB71D3D3A80002BBF6D /* Build configuration list for PBXNativeTarget "XcodebuildHangsTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +519,7 @@
 				B99B6DB91D3D3A80002BBF6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B99B6DBA1D3D3A80002BBF6D /* Build configuration list for PBXNativeTarget "XcodebuildHangsUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +528,7 @@
 				B99B6DBC1D3D3A80002BBF6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

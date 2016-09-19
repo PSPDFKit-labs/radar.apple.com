@@ -1,6 +1,6 @@
-rdar://27261367
+## Breaking changing on UIActivityViewController when checking modalPresentationStyle leads to crash
 
-Breaking changing on UIActivityViewController when checking modalPresentationStyle leads to crash
+http://openradar.appspot.com/27261367
 
 Area:
 UIKit
@@ -37,5 +37,4 @@ You’ll find the most up-to-date sample code for all our radars on https://gith
 Configuration:
 Xcode 10.0b2
 
-Attachments:
-
+Fixed on iOS 10 GM.

@@ -1,8 +1,10 @@
+## Action sheets shown on a popover-presented controller do not preserve their position after rotation
+
+http://openradar.appspot.com/27074874
+
 Originator:	matej
 Number:	rdar://27074874
 Date Originated:	29-Jun-2016 09:21 AM
-
-Action sheets shown on a popover-presented controller do not preserve their position after rotation
 
 Summary:
 

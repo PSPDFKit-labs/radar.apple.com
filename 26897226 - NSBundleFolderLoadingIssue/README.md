@@ -1,6 +1,6 @@
-NSBundle's path resolution is broken with unicode
+## NSBundle's path resolution is broken with unicode
 
-Peter Steinberger20-Jun-2016 08:33 PM
+http://openradar.appspot.com/26897226
 
 Area:
 Something not on this list
@@ -31,5 +31,4 @@ Same issue in Xcode 8b1/iOS 10.0b1
 Configuration:
 Xcode 7.3.1
 
-Attachments:
-'NSBundleFolderLoadingIssue.zip' was successfully uploaded.
+Tested on iOS 10 GM, not fixed.

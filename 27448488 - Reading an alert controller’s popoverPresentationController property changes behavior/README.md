@@ -1,6 +1,6 @@
-# Reading an alert controller’s popoverPresentationController property changes behavior
+## Reading an alert controller’s popoverPresentationController property changes behavior
 
-Radar 27448488
+http://openradar.appspot.com/27448488
 
 Summary:
 A view controller in a regular width presents a second view controller such that the second view controller is in a compact width. For example by using the `formSheet` or `popover` presentation style. The second view controller then presents an alert controller with the action sheet style. The resulting presentation style of the alert controller depends on whether its popoverPresentationController property is read. (See actual results below.)
@@ -33,3 +33,5 @@ We keep up-to-date sample projects at https://github.com/PSPDFKit-labs/radar.app
 
 Configuration:
 iPad Pro big, iPad Pro small simulator
+
+Tested on iOS 10 GM, not fixed.

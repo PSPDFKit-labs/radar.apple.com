@@ -1,3 +1,7 @@
+## UIBarButtonItems with custom views animate differently to regular bar button items
+
+http://openradar.appspot.com/28094452
+
 Area:
 UIKit
 
@@ -23,3 +27,4 @@ Sample: https://www.dropbox.com/s/2qmesjysngmmrk0/BarButtonTests.zip?dl=0
 Configuration:
 Xcode 8b6 (8S201h), iPhone 6s simulator
 
+Tested on iOS 10 GM, not fixed.

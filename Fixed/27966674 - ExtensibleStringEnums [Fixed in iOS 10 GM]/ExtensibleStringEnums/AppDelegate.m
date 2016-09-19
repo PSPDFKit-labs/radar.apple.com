@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  AsanOptionTest
+//  ExtensibleStringEnums
 //
-//  Created by Peter Steinberger on 29/08/16.
+//  Created by Michael Ochs on 8/23/16.
 //  Copyright © 2016 PSPDFKit GmbH. All rights reserved.
 //
 
@@ -14,13 +14,11 @@
 
 @implementation AppDelegate
 
-+ (void)load {
-    NSLog(@"%@", NSProcessInfo.processInfo.environment);
-}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     return YES;
 }
+
 
 @end

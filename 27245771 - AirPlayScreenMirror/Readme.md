@@ -1,3 +1,7 @@
+## AirPlay screen mirroring does not use fullHD even on lates hardware
+
+http://openradar.appspot.com/27245771
+
 Summary:
 Using AirPlay to mirror an iPad’s screen on a TV creates a UIScreen instance with a resolution of 1280x720 even though the Apple TV is connected to a fullHD TV, the Apple TV is a 4th gen device and the iPad is an iPad Pro 12.9”. There should really be enough power to drive that.
 
@@ -12,9 +16,3 @@ When connected to a fullHD display, the UIScreen should be of size 1920x1080@1x
 
 Actual Results:
 The UIScreen is of size 1280x720@1x even though a fullHD display is connected to the Apple TV
-
-Regression:
-
-
-Notes:
-

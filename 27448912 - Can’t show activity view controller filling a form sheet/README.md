@@ -1,6 +1,6 @@
-# Can’t show activity view controller filling a form sheet
+## Can’t show activity view controller filling a form sheet
 
-Radar 27448912
+http://openradar.appspot.com/27448912
 
 Summary:
 On iOS 9 on a small iPad, Pages shows an activity view controller filling a form sheet (see attached screen shot). (Note that Pages uses a popover on large iPad Pro on iOS 10 — not sure which change causes this.)
@@ -35,5 +35,4 @@ I think trait collections are an oversimplification, and the UIKit behaviour see
 Configuration:
 iPad Air 2 on iOS 9 with Pages and iPad Pro big on iOS 10 beta 2 with my sample project
 
-Attachments:
-'pages-sheet-in-form-sheet.jpg' and 'activityviewcontroll-form-sheet.zip' were successfully uploaded.
+Tested on iOS 10 GM, not fixed.

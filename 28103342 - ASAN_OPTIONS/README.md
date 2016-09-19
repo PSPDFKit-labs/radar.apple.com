@@ -1,4 +1,6 @@
-Peter Steinberger31-Aug-2016 11:30 PM
+## ASAN_OPTIONS no longer settable when running tests within Xcode. (Regression)
+
+http://openradar.appspot.com/28103342
 
 Summary:
 I'm trying to set ASAN_OPTIONS as environment variable in Xcode based on 
@@ -47,6 +49,3 @@ I opened a DTS for this before because I wasn't sure it was a bug, but it was cl
 
 Configuration:
 Xcode 7.3.1 and Xcode 8b6
-
-Attachments:
-'AsanOptionTest.zip' was successfully uploaded.

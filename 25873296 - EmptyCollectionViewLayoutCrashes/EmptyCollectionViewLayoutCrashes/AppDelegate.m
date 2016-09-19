@@ -20,7 +20,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     UIWindow *window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
 
-    ViewController *controller = [[ViewController alloc] initWithCollectionViewLayout:nil];
+    ViewController *controller = [[ViewController alloc] initWithCollectionViewLayout:[MyLayout new]];
     window.rootViewController = controller;
 
     [window makeKeyAndVisible];

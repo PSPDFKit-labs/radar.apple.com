@@ -8,10 +8,6 @@
 
 #import "ViewController.h"
 
-@interface MyLayout : UICollectionViewLayout
-
-@end
-
 @interface ViewController ()
 
 @end
@@ -19,7 +15,6 @@
 @implementation ViewController
 
 - (instancetype)initWithCollectionViewLayout:(UICollectionViewLayout *)layout {
-    layout = [MyLayout new];
     return [super initWithCollectionViewLayout:layout];
 }
 
