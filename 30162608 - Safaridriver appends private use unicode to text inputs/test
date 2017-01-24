@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Start session
+SESSION=$(curl -s -d '{"desiredCapabilities":{}}' http://localhost:8910/session | jq -r .sessionId)
+
+# Navigate to the test example
+curl -s -d '{"url":"http://localhost:8000/test.html"}' http://localhost:8910/session/$SESSION/url
+
+# Find the input fied
+ELEMENT=$(curl -s -d '{"using":"id", "value": "input"}' http://localhost:8910/session/$SESSION/element | jq -r .value.ELEMENT)
+
+# Send enter key
+curl -s -d '{"value":["\uE007"]}' http://localhost:8910/session/$SESSION/element/$ELEMENT/value

@@ -1,0 +1,10 @@
+<input type="text" id="input" />
+<script>
+document.getElementById('input').addEventListener('keydown', (event) => {
+  const value = event.target.value
+
+  if(event.keyCode == 13 && value.indexOf('\uE007') >= 0){
+    alert('Input field contains \\uE007 which is a private use unicode character but keyCode was 13 (ENTER)')
+  }
+})
+</script>
