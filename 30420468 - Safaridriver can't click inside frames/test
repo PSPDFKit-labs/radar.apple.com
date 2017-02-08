@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Start session
+SESSION=$(curl -s -d '{"desiredCapabilities":{}}' http://localhost:8910/session | jq -r .sessionId)
+
+# Navigate to the test example
+curl -s -d '{"url":"http://localhost:8000/test.html"}' http://localhost:8910/session/$SESSION/url > /dev/null
+
+# Switch to the frame
+curl -s -d '{"id": 0}' http://localhost:8910/session/$SESSION/frame > /dev/null
+
+# Find the button
+ELEMENT=$(curl -s -d '{"using":"id", "value": "button"}' http://localhost:8910/session/$SESSION/element | jq -r .value.ELEMENT)
+
+# Click it
+curl -s -d '{}' http://localhost:8910/session/$SESSION/element/$ELEMENT/click > /dev/null
+
+# This should now fail since the click will remove the button
+curl -s -d '{"using":"id", "value": "button"}' http://localhost:8910/session/$SESSION/element
