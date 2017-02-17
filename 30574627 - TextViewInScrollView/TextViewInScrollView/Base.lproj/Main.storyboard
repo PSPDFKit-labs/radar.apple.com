@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" maximumZoomScale="5" translatesAutoresizingMaskIntoConstraints="NO" id="Qre-Ti-7TL">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nG6-uA-et0">
+                                        <rect key="frame" x="0.0" y="59" width="200" height="188"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bJo-oC-3bl">
+                                                <rect key="frame" x="8" y="8" width="184" height="172"/>
+                                                <color key="backgroundColor" red="0.78431372549019607" green="0.78431372549019607" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <string key="text">This text view is inside a scroll view. It has a very small font size (6pt) and the scroll view is zoomed in so that it is readable. If you now type something that is miss spelled, the red dots appear huge as they don't shrink with the text size and they also don't render based on the view's content scale factor.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="6"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.90196078431372551" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="188" id="0iV-5H-jZG"/>
+                                            <constraint firstItem="bJo-oC-3bl" firstAttribute="bottom" secondItem="nG6-uA-et0" secondAttribute="bottomMargin" id="7y9-Yj-RsW"/>
+                                            <constraint firstAttribute="width" constant="200" id="8Yd-xi-g4u"/>
+                                            <constraint firstItem="bJo-oC-3bl" firstAttribute="trailing" secondItem="nG6-uA-et0" secondAttribute="trailingMargin" id="IsP-fQ-jFl"/>
+                                            <constraint firstItem="bJo-oC-3bl" firstAttribute="top" secondItem="nG6-uA-et0" secondAttribute="topMargin" id="Saf-if-oR6"/>
+                                            <constraint firstItem="bJo-oC-3bl" firstAttribute="leading" secondItem="nG6-uA-et0" secondAttribute="leadingMargin" id="qQr-2M-kRF"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="nG6-uA-et0" secondAttribute="trailing" id="QYL-Ro-91m"/>
+                                    <constraint firstItem="nG6-uA-et0" firstAttribute="top" secondItem="Qre-Ti-7TL" secondAttribute="top" constant="59" id="Vdh-qd-9oZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="nG6-uA-et0" secondAttribute="bottom" id="eoe-Su-nJc"/>
+                                    <constraint firstItem="nG6-uA-et0" firstAttribute="leading" secondItem="Qre-Ti-7TL" secondAttribute="leading" id="mCt-jT-jsy"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="5bL-Ev-2Xw"/>
+                                </connections>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Qre-Ti-7TL" secondAttribute="bottom" id="5aU-ZD-YW2"/>
+                            <constraint firstItem="Qre-Ti-7TL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8IG-yF-cvZ"/>
+                            <constraint firstItem="Qre-Ti-7TL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="GvJ-yb-GDE"/>
+                            <constraint firstAttribute="trailing" secondItem="Qre-Ti-7TL" secondAttribute="trailing" id="YS3-gK-kUm"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="scrollView" destination="Qre-Ti-7TL" id="FgO-Nf-4la"/>
+                        <outlet property="textView" destination="bJo-oC-3bl" id="voU-Ov-Eg2"/>
+                        <outlet property="zoomView" destination="nG6-uA-et0" id="zd3-xX-uve"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="141.59999999999999" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>
