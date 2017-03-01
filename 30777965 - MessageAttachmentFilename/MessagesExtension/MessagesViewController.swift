@@ -12,6 +12,6 @@ import Messages
 class MessagesViewController: MSMessagesAppViewController {
 
     @IBAction func insertButtonTapped(_ sender: Any) {
-        self.activeConversation?.insertAttachment(Bundle.main.bundleURL.appendingPathComponent("Document.pdf"), withAlternateFilename: "AlternateDocument")
+        self.activeConversation?.insertAttachment(Bundle.main.bundleURL.appendingPathComponent("Document.pdf"), withAlternateFilename: "AlternateDocument.pdf")
     }
 }
