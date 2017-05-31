@@ -14,6 +14,14 @@
 
 @implementation TableViewController
 
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Radar" message:@"Tap Edit\nTap in one of the text fields to begin editing\nTap Done" preferredStyle:UIAlertControllerStyleAlert];
+    [alert addAction:[UIAlertAction actionWithTitle:@"Oh damn, another 💥" style:UIAlertActionStyleDefault handler:nil]];
+    [self presentViewController:alert animated:YES completion:NULL];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.rightBarButtonItem = self.editButtonItem;
