@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H01-QP-iLe">
+                                <rect key="frame" x="16" y="64" width="89" height="30"/>
+                                <state key="normal" title="Run Example"/>
+                                <connections>
+                                    <action selector="runExample:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FmX-Rw-7DX"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6aJ-jf-iqf">
+                                <rect key="frame" x="16" y="138" width="225" height="38"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">First document 
+</string>
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="presentedItemDidChange">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="Courier"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jvS-YQ-l84">
+                                <rect key="frame" x="16" y="184" width="225" height="38"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Second document 
+</string>
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="presentedItemDidChange">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="Courier"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K4K-0z-qbq">
+                                <rect key="frame" x="350.5" y="155" width="8.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z4Y-Ig-DQV">
+                                <rect key="frame" x="350.5" y="201" width="8.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="uka-YN-kpQ">
+                                <rect key="frame" x="339" y="74" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ITB-bp-mwJ">
+                                <rect key="frame" x="16" y="266" width="343" height="122"/>
+                                <string key="text">Run the example by tapping on Run Example above. Observe that the delegates are not invoked. Then open ViewController.m and change the way documentURL is initialized. Then re-run the example app. Notice that both calls are now invoked. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6aJ-jf-iqf" firstAttribute="top" secondItem="H01-QP-iLe" secondAttribute="bottom" constant="44" id="0oD-wf-mOF"/>
+                            <constraint firstItem="K4K-0z-qbq" firstAttribute="baseline" secondItem="6aJ-jf-iqf" secondAttribute="baseline" id="1NM-OT-c1D"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="ITB-bp-mwJ" secondAttribute="leading" id="3wA-gm-gyE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="uka-YN-kpQ" secondAttribute="trailing" id="9uq-9R-jJh"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="6aJ-jf-iqf" secondAttribute="leading" id="Gb7-v2-OrP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Z4Y-Ig-DQV" secondAttribute="trailing" id="JRd-fQ-aED"/>
+                            <constraint firstItem="jvS-YQ-l84" firstAttribute="top" secondItem="6aJ-jf-iqf" secondAttribute="bottom" constant="8" id="Oka-Cz-QAA"/>
+                            <constraint firstItem="ITB-bp-mwJ" firstAttribute="top" secondItem="jvS-YQ-l84" secondAttribute="bottom" constant="44" id="PEm-Ws-kvg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="K4K-0z-qbq" secondAttribute="trailing" id="SVj-7B-ssz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ITB-bp-mwJ" secondAttribute="trailing" id="pjf-dz-9Xo"/>
+                            <constraint firstItem="uka-YN-kpQ" firstAttribute="baseline" secondItem="H01-QP-iLe" secondAttribute="baseline" constant="9.5" id="qES-EL-izM"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="jvS-YQ-l84" secondAttribute="leading" id="urS-6c-Pa5"/>
+                            <constraint firstItem="H01-QP-iLe" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="44" id="vWI-NY-Sdq"/>
+                            <constraint firstItem="H01-QP-iLe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="xkx-Bo-wrE"/>
+                            <constraint firstItem="Z4Y-Ig-DQV" firstAttribute="baseline" secondItem="jvS-YQ-l84" secondAttribute="baseline" id="yDr-cS-CZA"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="uka-YN-kpQ" id="oi2-Dc-EqQ"/>
+                        <outlet property="firstStatusLabel" destination="K4K-0z-qbq" id="HMU-GT-DwQ"/>
+                        <outlet property="secondStatusLabel" destination="Z4Y-Ig-DQV" id="ePX-4U-FzT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="77.599999999999994" y="37.331334332833585"/>
+        </scene>
+    </scenes>
+</document>
