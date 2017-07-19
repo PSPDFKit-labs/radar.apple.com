@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13156.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13137.5"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bw3-N3-KQS">
+                                <rect key="frame" x="167.5" y="313.5" width="40" height="40"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M9L-Ri-C6T">
+                                <rect key="frame" x="167" y="361" width="40" height="40"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="M9L-Ri-C6T" firstAttribute="height" secondItem="bw3-N3-KQS" secondAttribute="height" id="5vV-57-9mG"/>
+                            <constraint firstItem="bw3-N3-KQS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6uN-ST-2sx"/>
+                            <constraint firstItem="M9L-Ri-C6T" firstAttribute="centerX" secondItem="bw3-N3-KQS" secondAttribute="centerX" id="Lqc-uX-m88"/>
+                            <constraint firstItem="bw3-N3-KQS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="N1N-Fz-8fh"/>
+                            <constraint firstItem="M9L-Ri-C6T" firstAttribute="top" secondItem="bw3-N3-KQS" secondAttribute="bottom" constant="7.5" id="Pr7-i3-LAl"/>
+                            <constraint firstItem="M9L-Ri-C6T" firstAttribute="width" secondItem="bw3-N3-KQS" secondAttribute="width" id="gdg-Wz-F3Z"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="copiedImageView" destination="M9L-Ri-C6T" id="m3f-3B-aPT"/>
+                        <outlet property="imageView" destination="bw3-N3-KQS" id="gAF-Mh-GdC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
