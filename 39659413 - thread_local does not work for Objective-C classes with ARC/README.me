@@ -1,0 +1,35 @@
+
+thread_local does not work for Objective-C classes with ARC
+Originator:	steipete	
+Number:	rdar://39659413	Date Originated:	23-Apr-2018 10:59 PM
+Status:	Open	Resolved:	
+Product:	Developer Tools	Product Version:	11.3
+Classification:	Other Bug	Reproducible:	Always
+ 
+Summary:
+thread_local does not work for Objective-C classes with ARC but works when:
+
+- we use MRR
+- we wrap it into a simple C++ class
+
+This seems like an arbitrary restriction, as managing the C++ class is probably even more complex, lifetime-wise.
+
+Steps to Reproduce:
+Open sample. Run. Observe everything works. Uncomment
+
+// Does not compile
+//static thread_local NSNumber *testARCVariable;
+
+Observe error: thread-local variable has non-trivial ownership: type is 'NSNumber *__strong'
+
+Expected Results:
+Objective-C objects should be storable in thread_local variables
+
+Actual Results:
+ARC blocks using thread_local with ObjC classes
+
+Version:
+11.3
+
+Notes:
+Also tested in Xcode 9.4b1 - same result.
