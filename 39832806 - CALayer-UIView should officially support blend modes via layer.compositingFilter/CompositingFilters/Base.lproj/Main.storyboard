@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2553a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CompositingFilters" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="GradientView" customModule="CompositingFilters" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sealion" translatesAutoresizingMaskIntoConstraints="NO" id="Twr-SN-VWh">
+                                <rect key="frame" x="62" y="208" width="250" height="250"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="6hE-mg-Q0Z"/>
+                                    <constraint firstAttribute="height" constant="250" id="QuB-Cv-WvO"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="arA-Cf-COB" appends="YES" id="VDI-K9-loR"/>
+                                    <outletCollection property="gestureRecognizers" destination="VB3-Uj-r7G" appends="YES" id="26d-Jr-pLR"/>
+                                    <outletCollection property="gestureRecognizers" destination="eq4-Y8-TBE" appends="YES" id="4ww-c1-hhA"/>
+                                </connections>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ndh-pT-FI9">
+                                <rect key="frame" x="30" y="536.5" width="315" height="41"/>
+                                <string key="text">Drag the photo around and
+change its blend mode.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WyD-ey-57X" userLabel="InfoContainerView">
+                                <rect key="frame" x="0.0" y="592.5" width="375" height="74.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="zCG-bH-iZZ">
+                                        <rect key="frame" x="15" y="12" width="345" height="50.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sVg-6B-fYw">
+                                                <rect key="frame" x="0.0" y="0.0" width="345" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nna-YG-0fD">
+                                                <rect key="frame" x="0.0" y="20.5" width="345" height="30"/>
+                                                <state key="normal" title="Pick a Filter"/>
+                                                <connections>
+                                                    <action selector="openPickerViewButtonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sw1-NH-uHV"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="zCG-bH-iZZ" firstAttribute="leading" secondItem="WyD-ey-57X" secondAttribute="leading" constant="15" id="5Hu-n4-sGS"/>
+                                    <constraint firstItem="zCG-bH-iZZ" firstAttribute="top" secondItem="WyD-ey-57X" secondAttribute="top" constant="12" id="Ooe-t6-uKj"/>
+                                    <constraint firstAttribute="bottom" secondItem="zCG-bH-iZZ" secondAttribute="bottom" constant="12" id="lmK-9f-s01"/>
+                                    <constraint firstAttribute="trailing" secondItem="zCG-bH-iZZ" secondAttribute="trailing" constant="15" id="oMr-hY-E1n"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="naT-Bo-Fht" userLabel="PickerContainerView">
+                                <rect key="frame" x="0.0" y="391" width="375" height="276"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="O9i-Xv-Xdp">
+                                        <rect key="frame" x="0.0" y="15" width="375" height="261"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aTk-Xy-Lem">
+                                                <rect key="frame" x="168" y="0.0" width="39" height="30"/>
+                                                <state key="normal" title="Close"/>
+                                                <connections>
+                                                    <action selector="closePickerViewButtonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6pF-pf-sMP"/>
+                                                </connections>
+                                            </button>
+                                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WRP-p2-mKR">
+                                                <rect key="frame" x="27.5" y="45" width="320" height="216"/>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="tUy-NB-ecY"/>
+                                                    <outlet property="delegate" destination="BYZ-38-t0r" id="D0h-7G-pq1"/>
+                                                </connections>
+                                            </pickerView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="O9i-Xv-Xdp" firstAttribute="leading" secondItem="naT-Bo-Fht" secondAttribute="leading" id="DJq-TL-0Se"/>
+                                    <constraint firstAttribute="bottom" secondItem="O9i-Xv-Xdp" secondAttribute="bottom" id="Nwy-fd-Dc4"/>
+                                    <constraint firstItem="O9i-Xv-Xdp" firstAttribute="top" secondItem="naT-Bo-Fht" secondAttribute="top" constant="15" id="q84-TT-MIE"/>
+                                    <constraint firstAttribute="trailing" secondItem="O9i-Xv-Xdp" secondAttribute="trailing" id="qjB-eo-gTq"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="naT-Bo-Fht" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="0SJ-sX-4Bb"/>
+                            <constraint firstItem="Twr-SN-VWh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3rw-Fy-Jjr"/>
+                            <constraint firstAttribute="trailing" secondItem="ndh-pT-FI9" secondAttribute="trailing" constant="30" id="9sM-dk-Cdk"/>
+                            <constraint firstAttribute="trailing" secondItem="WyD-ey-57X" secondAttribute="trailing" id="Nvp-rZ-Gc2"/>
+                            <constraint firstAttribute="bottom" secondItem="naT-Bo-Fht" secondAttribute="bottom" id="SSs-6s-Cwm"/>
+                            <constraint firstItem="ndh-pT-FI9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="TcX-Ud-UCH"/>
+                            <constraint firstItem="WyD-ey-57X" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="YEX-Qo-QEV"/>
+                            <constraint firstItem="Twr-SN-VWh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YoU-3p-IcO"/>
+                            <constraint firstItem="WyD-ey-57X" firstAttribute="top" secondItem="ndh-pT-FI9" secondAttribute="bottom" constant="15" id="jo4-yg-qfk"/>
+                            <constraint firstAttribute="bottom" secondItem="WyD-ey-57X" secondAttribute="bottom" id="sQ7-yd-L5p"/>
+                            <constraint firstAttribute="trailing" secondItem="naT-Bo-Fht" secondAttribute="trailing" id="v9n-le-6jF"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                                <color key="value" red="0.0" green="0.92305761575698853" blue="0.66904544830322266" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                                <color key="value" red="0.62149852510000003" green="0.96945375199999995" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="point" keyPath="startPoint">
+                                <point key="value" x="0.0" y="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="point" keyPath="endPoint">
+                                <point key="value" x="1" y="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <connections>
+                        <outlet property="compositeFilterPickerView" destination="WRP-p2-mKR" id="LNR-7s-OGF"/>
+                        <outlet property="pickerContainerView" destination="naT-Bo-Fht" id="UBJ-dT-VTb"/>
+                        <outlet property="pickerContainerViewBottomConstraint" destination="SSs-6s-Cwm" id="kNE-fP-Dne"/>
+                        <outlet property="selectedCompositeFilterLabel" destination="sVg-6B-fYw" id="B4a-MW-YuD"/>
+                        <outlet property="topImageView" destination="Twr-SN-VWh" id="AbJ-VW-5Ar"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="arA-Cf-COB">
+                    <connections>
+                        <action selector="handlePanWithRecognizer:" destination="BYZ-38-t0r" id="vKH-QW-a4E"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="Z3d-ST-WKb"/>
+                    </connections>
+                </panGestureRecognizer>
+                <pinchGestureRecognizer id="VB3-Uj-r7G">
+                    <connections>
+                        <action selector="handlePinchWithRecognizer:" destination="BYZ-38-t0r" id="7CZ-jH-Yix"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="yfW-fO-59E"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <rotationGestureRecognizer id="eq4-Y8-TBE">
+                    <connections>
+                        <action selector="handleRotateWithRecognizer:" destination="BYZ-38-t0r" id="X6p-Ck-bme"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="u1e-1l-EDd"/>
+                    </connections>
+                </rotationGestureRecognizer>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="sealion" width="800" height="800"/>
+    </resources>
+</document>
