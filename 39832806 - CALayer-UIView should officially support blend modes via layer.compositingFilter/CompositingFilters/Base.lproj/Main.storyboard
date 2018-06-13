@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2553a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14112" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,19 +21,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sealion" translatesAutoresizingMaskIntoConstraints="NO" id="Twr-SN-VWh">
-                                <rect key="frame" x="62" y="208" width="250" height="250"/>
-                                <gestureRecognizers/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="250" id="6hE-mg-Q0Z"/>
-                                    <constraint firstAttribute="height" constant="250" id="QuB-Cv-WvO"/>
-                                </constraints>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="arA-Cf-COB" appends="YES" id="VDI-K9-loR"/>
-                                    <outletCollection property="gestureRecognizers" destination="VB3-Uj-r7G" appends="YES" id="26d-Jr-pLR"/>
-                                    <outletCollection property="gestureRecognizers" destination="eq4-Y8-TBE" appends="YES" id="4ww-c1-hhA"/>
-                                </connections>
-                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O12-IZ-IEh">
+                                <rect key="frame" x="87" y="278" width="250" height="250"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="sealion" translatesAutoresizingMaskIntoConstraints="NO" id="Twr-SN-VWh">
+                                        <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="250" id="6hE-mg-Q0Z"/>
+                                            <constraint firstAttribute="height" constant="250" id="QuB-Cv-WvO"/>
+                                        </constraints>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="arA-Cf-COB" appends="YES" id="VDI-K9-loR"/>
+                                            <outletCollection property="gestureRecognizers" destination="eq4-Y8-TBE" appends="YES" id="4ww-c1-hhA"/>
+                                            <outletCollection property="gestureRecognizers" destination="VB3-Uj-r7G" appends="YES" id="26d-Jr-pLR"/>
+                                        </connections>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ndh-pT-FI9">
                                 <rect key="frame" x="30" y="536.5" width="315" height="41"/>
                                 <string key="text">Drag the photo around and
@@ -107,13 +113,11 @@ change its blend mode.</string>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="naT-Bo-Fht" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="0SJ-sX-4Bb"/>
-                            <constraint firstItem="Twr-SN-VWh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3rw-Fy-Jjr"/>
                             <constraint firstAttribute="trailing" secondItem="ndh-pT-FI9" secondAttribute="trailing" constant="30" id="9sM-dk-Cdk"/>
                             <constraint firstAttribute="trailing" secondItem="WyD-ey-57X" secondAttribute="trailing" id="Nvp-rZ-Gc2"/>
                             <constraint firstAttribute="bottom" secondItem="naT-Bo-Fht" secondAttribute="bottom" id="SSs-6s-Cwm"/>
                             <constraint firstItem="ndh-pT-FI9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="TcX-Ud-UCH"/>
                             <constraint firstItem="WyD-ey-57X" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="YEX-Qo-QEV"/>
-                            <constraint firstItem="Twr-SN-VWh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YoU-3p-IcO"/>
                             <constraint firstItem="WyD-ey-57X" firstAttribute="top" secondItem="ndh-pT-FI9" secondAttribute="bottom" constant="15" id="jo4-yg-qfk"/>
                             <constraint firstAttribute="bottom" secondItem="WyD-ey-57X" secondAttribute="bottom" id="sQ7-yd-L5p"/>
                             <constraint firstAttribute="trailing" secondItem="naT-Bo-Fht" secondAttribute="trailing" id="v9n-le-6jF"/>

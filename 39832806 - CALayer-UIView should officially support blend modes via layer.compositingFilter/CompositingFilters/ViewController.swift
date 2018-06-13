@@ -64,7 +64,8 @@ class ViewController: UIViewController {
         let filterString = compositingFilterStrings[index]
         print(filterString)
         
-        topImageView.layer.compositingFilter = filterString
+        topImageView.superview!.layer.compositingFilter = filterString
+        topImageView.layer.compositingFilter = "normalBlendMode"
         selectedCompositeFilterLabel.text = "Selected Filter: »\(filterString)«"
     }
     
