@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="EPE-HO-dUs">
+                                <rect key="frame" x="80" y="144" width="254" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="off-Bb-hAN"/>
+                                </constraints>
+                                <string key="text">Please select some or all of the text in this view, and then tap on the button below.
+Notice, how at least one of the selection handles will overlap the content of the popover that appears.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e5f-Xz-cth">
+                                <rect key="frame" x="152.5" y="378" width="109" height="30"/>
+                                <state key="normal" title="Tap for Popover"/>
+                                <connections>
+                                    <segue destination="2gW-HV-uh2" kind="popoverPresentation" popoverAnchorView="e5f-Xz-cth" id="UAS-36-cVt">
+                                        <popoverArrowDirection key="popoverArrowDirection" down="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.41574611483478374" green="1" blue="0.59963408381141881" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="e5f-Xz-cth" firstAttribute="top" secondItem="EPE-HO-dUs" secondAttribute="bottom" constant="34" id="1rm-nH-JYa"/>
+                            <constraint firstItem="EPE-HO-dUs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="3o9-4i-UT4"/>
+                            <constraint firstItem="EPE-HO-dUs" firstAttribute="centerX" secondItem="e5f-Xz-cth" secondAttribute="centerX" id="u0Z-PX-uEK"/>
+                            <constraint firstItem="EPE-HO-dUs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" identifier="Leading margin" id="vV9-l8-Suy"/>
+                            <constraint firstItem="EPE-HO-dUs" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="yDj-Us-bYG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="initialFirstResponder" destination="EPE-HO-dUs" id="WvA-zz-9Mw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="138.61607142857142"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4Cs-Om-0h5">
+            <objects>
+                <viewController modalPresentationStyle="currentContext" id="2gW-HV-uh2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NmZ-8l-9vL">
+                        <rect key="frame" x="0.0" y="0.0" width="300" height="400"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="ZMm-wu-yxw"/>
+                    </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="800" height="896"/>
+                    <size key="freeformSize" width="300" height="400"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LiG-aO-LOy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="930" y="127"/>
+        </scene>
+    </scenes>
+</document>
