@@ -62,8 +62,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     @objc public func getRecentFiles() -> [URL] {
         let recents = UserDefaults.standard.array(forKey: AppDelegate.recentDocumentsKey) as? [Data] ?? []
-        let documentURLs = recents.compactMap { data -> URL in
-            let path = NSURL.pspdf_url(withBookmarkData: data)!.path
+        let documentURLs = recents.compactMap { data -> URL? in
+            guard let path = NSURL.pspdf_url(withBookmarkData: data)?.path else { return nil }
             return URL(fileURLWithPath: path)
         }
         return documentURLs
