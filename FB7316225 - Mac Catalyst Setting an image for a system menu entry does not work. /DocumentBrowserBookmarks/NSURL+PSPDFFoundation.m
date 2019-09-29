@@ -11,12 +11,16 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+// NSURLBookmarkCreationWithSecurityScope is unavailable on iOS,
+// but we need it, so we use the enum value directly.
+#define PSPDFURLBookmarkCreationWithSecurityScope ((NSURLBookmarkCreationOptions)1 << 11)
+
 @implementation NSURL (PSPDFAdditions)
 
 - (nullable NSData *)pspdf_bookmarkData {
     NSError *error;
     [self startAccessingSecurityScopedResource];
-    NSData *bookmarkData = [self bookmarkDataWithOptions:NSURLBookmarkCreationSuitableForBookmarkFile includingResourceValuesForKeys:nil relativeToURL:nil error:&error];
+    NSData *bookmarkData = [self bookmarkDataWithOptions:PSPDFURLBookmarkCreationWithSecurityScope includingResourceValuesForKeys:nil relativeToURL:nil error:&error];
     if (!bookmarkData) {
         NSLog(@"Unable to encode bookmark url: %@", error);
     }
@@ -29,7 +33,7 @@ NS_ASSUME_NONNULL_BEGIN
         return nil;
     }
     NSError *error;
-    NSURL *url = [NSURL URLByResolvingBookmarkData:(NSData *)data options:NSURLBookmarkResolutionWithoutUI relativeToURL:nil bookmarkDataIsStale:NULL error:&error];
+    NSURL *url = [NSURL URLByResolvingBookmarkData:(NSData *)data options:PSPDFURLBookmarkCreationWithSecurityScope relativeToURL:nil bookmarkDataIsStale:NULL error:&error];
     if (!url) {
         NSLog(@"Unable to decode bookmark: %@", error);
     }
