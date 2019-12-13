@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drag the points to change the path. (or)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ciL-XQ-E8H">
+                                <rect key="frame" x="0.0" y="44" width="414" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="lpr-Dh-W3S"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wi6-Ue-MaK">
+                                <rect key="frame" x="84" y="69" width="246" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="246" id="D0i-Mr-hhh"/>
+                                    <constraint firstAttribute="height" constant="30" id="PKz-cZ-N6x"/>
+                                </constraints>
+                                <state key="normal" title="Cycle through buggy configurations"/>
+                                <connections>
+                                    <action selector="cycleBuggyConfig:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KvH-fY-c15"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ciL-XQ-E8H" secondAttribute="trailing" id="5vr-sL-01u"/>
+                            <constraint firstItem="wi6-Ue-MaK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9pJ-Eo-hry"/>
+                            <constraint firstItem="ciL-XQ-E8H" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="EU9-9W-kKy"/>
+                            <constraint firstItem="ciL-XQ-E8H" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hMf-sn-gjc"/>
+                            <constraint firstItem="wi6-Ue-MaK" firstAttribute="top" secondItem="ciL-XQ-E8H" secondAttribute="bottom" constant="8" id="iJQ-tA-6To"/>
+                            <constraint firstItem="ciL-XQ-E8H" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="rX9-1w-Xgg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="yOB-vK-RSE" appends="YES" id="vmP-EN-XPz"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="pan" destination="yOB-vK-RSE" id="HO5-FR-7CE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="yOB-vK-RSE">
+                    <connections>
+                        <action selector="panned:" destination="BYZ-38-t0r" id="i69-N7-aqh"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+</document>
