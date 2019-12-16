@@ -33,3 +33,5 @@ If we comment out the code which forces the rotation in the UIViewController, th
 ```
 
 Please refer to the attached `with-forced-rotation.gif` and `without-forced-rotation.gif` animated gifs to see the the behaviours.
+
+Correction: Please note that it only happens on iPhone devices and not on iPad devices.
