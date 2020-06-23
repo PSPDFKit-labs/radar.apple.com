@@ -38,3 +38,5 @@ Apple Swift version 5.3.x
 What actually happened?
 Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)
 Target: x86_64-apple-darwin19.5.0
+
+Fixed: Rebooting my Mac solved the issue.
