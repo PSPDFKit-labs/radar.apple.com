@@ -1,6 +1,6 @@
 # FB8795412: Catalyst: Selecting documents in the Open Recent menu results in no action
 
-Selecting documents in the Open Recent menu, available for document-based Catalyst apps since macOS Big Sur, results in no action. It’s missing the document icons as well.
+Selecting documents from the Open Recent menu, available for document-based Catalyst apps since macOS Big Sur, results in no action. It’s missing the document icons as well.
 
 STEPS TO REPRODUCE
 
@@ -34,12 +34,18 @@ DETAILS
 
 I discovered that attempting to open a recent document actually fails silently with the following error:
 
+```
 Error Domain=NSCocoaErrorDomain Code=260 "The file “PSPDFKit 10 QuickStart Guide.pdf” couldn’t be opened because there is no such file." UserInfo={NSURL=file:///Users/Adrian/Documents/PSPDFKit%2010%20QuickStart%20Guide.pdf/}
+```
 
 The error isn’t logged or displayed to the user. I discovered it by putting a breakpoint for the following symbol and printing $arg3:
 
+```
 __52-[UINSRecentItemsMenuController _openRecentItemURL:]_block_invoke
+```
 
 Asking NSFileManager if the file exists at the URL included in the error’s user info dictionary results in a YES:
 
+```
 (BOOL)[[NSFileManager defaultManager] fileExistsAtPath:[(NSURL *)[[$arg3 userInfo] objectForKey:@"NSURL"] path]]
+```
