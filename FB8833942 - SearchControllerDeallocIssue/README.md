@@ -1,6 +1,6 @@
 # FB8833942: UISearchController creates a retain cycle unless explicitly dismissed
 
-SThe view controller of the search controller is not deallocated if it is dismissed while search is active.
+The view controller of the search controller is not deallocated if it is dismissed while search is active.
 See example for details.
 
 In our code, he _UISearchPresentationController holds a strong reference to the presented view controller.
