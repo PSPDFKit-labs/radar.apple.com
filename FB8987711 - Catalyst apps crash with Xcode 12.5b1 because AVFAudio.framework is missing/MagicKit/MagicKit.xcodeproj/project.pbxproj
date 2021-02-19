@@ -362,6 +362,10 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					AVFAudio,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = avfbug.MagicKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -385,6 +389,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					AVFAudio,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = avfbug.MagicKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
